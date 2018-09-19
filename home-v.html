@@ -33,22 +33,20 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
     <!-- MAIN THEME STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
     <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
     <link rel='stylesheet' id='tipsy-css'  href='css/tipsy.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='fonts-css'  href='css/font-awesome.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='full-descriptor-css'  href='portfolios/full-description/css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' id='slide-details-css'  href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flex-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='colorbox-css'  href='css/colorbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='thumbnails-css'  href='sliders/thumbnails/css/thumbnails.css' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-button-mfast-3-css'  href='css/buttons/mfast-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
 
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -70,6 +68,7 @@
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
 </head>
 <!-- END HEAD -->
+
 <!-- START BODY -->
 <body class="home page no_js responsive stretched">
 
@@ -78,6 +77,7 @@
 
 <!-- START WRAPPER -->
 <div id="wrapper" class="container group">
+<!-- START TOP BAR -->
 
 <!-- START TOP BAR -->
 <div id="topbar">
@@ -100,7 +100,8 @@
                 </script>
 
             </div>
-            <div id="text-8" class="widget-2 widget-last span6 widget widget_text">
+
+            <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
                     <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
@@ -112,8 +113,7 @@
 
                     <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
 
-                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a>
-                </div>
+                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
             </div>
         </div>
     </div>
@@ -137,6 +137,7 @@
         });
     });
 </script>
+
 <!-- END TOP BAR -->
 
 <!-- START HEADER -->
@@ -159,7 +160,7 @@
                         <!-- START MAIN NAVIGATION -->
                         <div class="menu">
                             <ul id="nav" class="sf-menu">
-                                <li class="nav-icon-hi">
+                                <li class="nav-icon-hi current_page_item">
                                     <a href="index.html">
                                         Home
                                         <div style="position:absolute; left: 50%;">
@@ -191,7 +192,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="nav-icon-design-small">
+                                        <li class="nav-icon-design-small current-menu-item">
                                             <a href="home-v.html">
                                                 Home Version V
                                                 <div style="position:absolute; left: 50%;">
@@ -233,7 +234,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-icon-monitor current_page_item">
+                                <li class="nav-icon-monitor">
                                     <a href="#">
                                         Sliders
                                         <div style="position:absolute; left: 50%;">
@@ -257,7 +258,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="current-menu-item">
+                                        <li>
                                             <a href="sliders-thumbnails.html">Thumbnails
                                                 <div style="position:absolute; left: 50%;">
                                                     <span class="triangle">&nbsp;</span>
@@ -542,413 +543,218 @@
 </div>
 <!-- END HEADER -->
 
-<!-- START SLIDER -->
-<div id="slider-thumbnails" class="slider slider-thumbnails thumbnails group container">
-<div class="showcase group">
 
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Bite2.jpeg" class="attachment-full" alt="Bite2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
+<!-- BEGIN NIVO SLIDER -->
+<div id="slider-flexslider-elegant" class="slider slider-flexslider-elegant flexslider-elegant container flexslider">
+    <ul class="slides" style="width:100%;height:400px;">
+        <li>
+            <img width="1200" height="400" src="images/slider/0024.jpeg" class="attachment-full" alt="0024" />
+            <div class="slider-caption caption-right">
+                <div class="caption-wrapper">
+                    <h2>A CLEAN CORPORATE THEME</h2>
+                    <h4></h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar turpis velit. Morbi rutrum, neque non pulvinar faucibus, ligula eros viverra ligula, et aliquam libero neque ac nisl.</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
 
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Bite2-60x60.jpeg" width="60" height="60" />
-    </div>
+                <span class="special-font" style="font-size:24px;">
+                    prices from <span style="font-size: 50px;">$45</span>
+                </span>
+                </div>
+            </div>
+        </li>
 
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="420,95">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Cool glasses
-        </a>
-    </div>
+        <li>
+            <img width="1170" height="378" src="images/blog/Friends22.jpeg" class="attachment-full" alt="Friends2" />
+            <div class="slider-caption caption-right">
+                <div class="caption-wrapper">
+                    <h2>LOVE IT, ENJOY IT</h2>
+                    <p>Curabitur pharetra accumsan sem, ac accumsan sapien tincidunt a. In hac habitasse platea dictumst. Donec lobortis purus ullamcorper risus posuere non euismod mi scelerisque. Nullam tincidunt varius metus sed elementum</p>
+                    <p>&nbsp;</p>
+
+                    <span class="special-font" style="font-size:24px;">
+                        Love your <span style="font-size: 30px;">Freedom</span>
+                    </span>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <img width="1200" height="400" src="images/slider/0015.jpeg" class="attachment-full" alt="0015" />
+            <div class="slider-caption caption-right">
+                <div class="caption-wrapper">
+                    <h2>MULTIPURPOSE THEME</h2>
+                    <h4></h4>
+                    <p>Nam sagittis justo eget nunc hendrerit et semper magna feugiat. Proin eu dui ut elit auctor vehicula. Integer ut dui vitae felis venenatis dapibus.</p>
+                    <p>&nbsp;</p>
+
+                    <span class="special-font" style="font-size:24px;">
+                        A creative <span style="font-size: 30px;">Portfolio theme</span>
+                    </span>
+
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>
 
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="380" src="images/slider/Dog2.jpeg" class="attachment-full" alt="Dog2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Dog2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Brunettes2.jpeg" class="attachment-full" alt="Brunettes2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Brunettes2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Friends2.jpeg" class="attachment-full" alt="Friends2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Friends2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="378" src="images/slider/Grayscale2.jpeg" class="attachment-full" alt="Grayscale2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Grayscale2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/017.jpg" class="attachment-full" alt="017" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/017-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/016.jpg" class="attachment-full" alt="016" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/016-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="399" src="images/slider/011.jpg" class="attachment-full" alt="011" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/011-60x60.jpg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/012.jpg" class="attachment-full" alt="012" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0041.jpg" class="attachment-full" alt="004" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0041-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0051.jpg" class="attachment-full" alt="005" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0051-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0012.jpg" class="attachment-full" alt="001" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/007.jpg" class="attachment-full" alt="007" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/007-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/008.jpg" class="attachment-full" alt="008" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/008-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="475,65">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Snow glasses            </a>
-    </div>
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0021.jpg" class="attachment-full" alt="002" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0021-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="402" src="images/slider/015.jpg" class="attachment-full" alt="015" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/015-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-</div>
-</div>
-<!-- END SLIDER -->
 
 <script type="text/javascript">
     jQuery(document).ready(function($){
-        $('#slider-thumbnails.thumbnails img.attachment-full').css('width', '1148px').css('height', '378px');
-        var resize_height_thumbnail = function(){
-            if ( ! $('body').hasClass('responsive') ) {
-                return;
-            }
+        //$('#slider-flexslider-elegant.flexslider img.attachment-full').css('width', 'px').css('height', '400px');
 
-            $('.showcase-content-container, .showcase-content').height( $('.showcase-content-wrapper').outerHeight() );
-            $('#slider-thumbnails.thumbnails .showcase-content-wrapper img').css({
-                width : $('#slider-thumbnails.slider.thumbnails .showcase-content').width() - 22
-            });
-            var arrow_width = parseInt( $('#slider-thumbnails .showcase-thumbnail-restriction').css('margin-left').replace( 'px', '' ) );
-            var thumbnails_container_width = $('#slider-thumbnails .showcase-thumbnail-container').width();
-            $('#slider-thumbnails .showcase-thumbnail-restriction').width( thumbnails_container_width - arrow_width*2 );
+        var flex_caption_hide = function(slider) {
+            var currSlideElement = slider;
+            var caption_speed = 400;
+            var width = parseInt( $('.slider-caption', currSlideElement).outerWidth() );
+            var height = parseInt( $('.slider-caption', currSlideElement).outerHeight() );
+
+            $('.caption-top', currSlideElement).animate({top:height*-1}, caption_speed);
+            $('.caption-bottom', currSlideElement).animate({bottom:height*-1}, caption_speed);
+            $('.caption-left', currSlideElement).animate({left:width*-1}, caption_speed);
+            $('.caption-right', currSlideElement).animate({right:width*-1}, caption_speed);
         };
-        $(window).resize(resize_height_thumbnail);
 
-        var content_width  = 1148 + 22;
-        var content_height = 378 + 22;
+        var flex_caption_show = function(slider) {
+            var nextSlideElement = slider;
+            var caption_speed = 400;
 
-        if ( content_width > $('.slider.thumbnails .showcase').width() ) {
-            content_width = $('.slider.thumbnails .showcase').width();
-        }
+            $('.caption-top', nextSlideElement).animate({top:0}, caption_speed);
+            $('.caption-bottom', nextSlideElement).animate({bottom:0}, caption_speed);
+            $('.caption-left', nextSlideElement).animate({left:0}, caption_speed);
+            $('.caption-right', nextSlideElement).animate({right:0}, caption_speed);
+        };
 
-        $("#slider-thumbnails .showcase").awShowcase({
-            content_width           : content_width,
-            content_height          : content_height,
-            show_caption            : 'onload', /* onload/onhover/show */
-            continuous              : true,
-            buttons                 : false,
-            auto                    : true,
-            thumbnails              : true,
-            transition              : 'fade', /* hslide / vslide / fade */
-            interval                : 3000,
-            transition_speed        : 800,
-            thumbnails_position     : 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
-            thumbnails_direction    : 'horizontal', /* vertical/horizontal */
-            thumbnails_slidex       : 1, /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
-            onload                  : function(){
-                $( window ).load(function(){
-                    resize_height_thumbnail();
-                });
-            },
-            onchange         : resize_height_thumbnail
+        $('#slider-flexslider-elegant').flexslider({
+            animation: 'fade',
+            slideshowSpeed: 3000,
+            animationSpeed: 800,
+            pauseOnAction: false,
+            controlNav: false,
+            directionNav: true,
+            touch: false,
+            start   : flex_caption_show,
+            before  : flex_caption_hide,
+            after   : flex_caption_show
         });
     });
 </script>
 
 <!-- START PRIMARY -->
-<div id="primary" class="sidebar-no">
+<div id="primary" class="sidebar-left">
     <div class="container group">
         <div class="row">
             <!-- START CONTENT -->
-            <div id="content-page" class="span12 content group">
-                <div id="post-711" class="post-711 page type-page status-publish hentry group">
-                    <div class="border-line"></div>
-
-                    <div class="one-fourth ">
-                        <h3>A responsive design</h3>
-                        <p><img class="size-full wp-image-817 aligncenter" title="responsive" src="images/responsive.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-
-                    <div class="one-fourth ">
-                        <h3>Shortcode manager</h3>
-                        <p><a href="images/shortcodes.png"><img class="alignleft size-full wp-image-819" title="shortcodes" src="images/shortcodes.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-
-                    <div class="one-fourth ">
-                        <h3>Creative portfolio</h3>
-                        <p><a href="images/celestino.png"><img class="size-full wp-image-823 aligncenter" title="celestino" src="images/celestino.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-
-                    <div class="one-fourth last">
-                        <h3>Unlimited colors</h3>
-                        <p><img class="aligncenter size-full wp-image-828" title="unlimitedcolors" src="images/unlimitedcolors.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
+            <div id="content-home" class="span9 content group">
+                <div class="page type-page status-publish hentry group">
+                    <h3>Unlimited home page styles</h3>
+                    <p>
+                        Praesent vehicula risus non nibh fringilla sit amet elementum nibh hendrerit. Nam porta interdum quam eu blandit. Quisque id urna eget orci ultricies porta.
+                        <a href="#">Pellentesque euismod</a> vestibulum sem at porttitor. Ut tempor aliquam arcu, sit amet varius nisi congue non.
+                    </p>
                     <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+
+                    <span class="special-font" style="font-size:30px;">
+                        Enjoy <strong>Celestino</strong>
+                    </span>
+
+                    <p>Donec metus lacus, molestie ut scelerisque at, faucibus ut turpis. Fusce volutpat, nisi in convallis blandit, nisl magna vestibulum quam, in suscipit velit nibh sed eros. Nunc cursus sem quis nulla tristique ut tristique ipsum dignissim. <strong>Proin mollis egestas</strong> pharetra. Maecenas felis enim, ornare eget vehicula ac, pretium sed neque.</p>
                 </div>
                 <!-- START COMMENTS -->
-                <div id="comments">
-                </div>
+                <div id="comments"></div>
                 <!-- END COMMENTS -->
             </div>
             <!-- END CONTENT -->
 
+            <!-- START SIDEBAR -->
+            <div class="span3 sidebar group">
+                <div id="popular-posts-4" class="widget-first widget popular-posts">
+                    <h3>Popular Posts</h3>
+                    <div class="recent-post group">
+                        <div class="hentry-post group">
+                            <div class="thumb-img">
+                                <img width="55" height="55" src="images/slider/23-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="23" />
+                            </div>
+                            <div class="text">
+                                <a href="blog-detail.html" title="This is the title of the first article. Enjoy it." class="title">
+                                    This is the title of the first article. Enjoy it.
+                                </a>
+                                <p class="post-date">October 8, 2012</p>
+                            </div>
+                        </div>
+                        <div class="hentry-post group">
+                            <div class="thumb-img">
+                                <img width="55" height="55" src="images/blog/imgbloh-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="imgbloh" />
+                            </div>
+                            <div class="text">
+                                <a href="#" title="Nice &amp; Clean. The best for your blog!" class="title">
+                                    Nice &amp; Clean. The best for your blog!
+                                </a>
+                                <p class="post-date">September 12, 2012</p>
+                            </div>
+                        </div>
+                        <div class="hentry-post group">
+                            <div class="thumb-img">
+                                <img width="55" height="55" src="images/slider/1-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="1" />
+                            </div>
+                            <div class="text">
+                                <a href="#" title="Another theme by YIThemes!" class="title">
+                                    Another theme by YIThemes!
+                                </a>
+                                <p class="post-date">September 12, 2012</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END SIDEBAR -->
+
             <!-- START EXTRA CONTENT -->
+            <div class="extra-content group span12">
+                <div class="row box-title">
+                    <div class="span5">
+                        <div class="border-line"></div>
+                    </div>
+                    <h3 class="span2">My numbers</h3>
+                    <div class="span5">
+                        <div class="border-line"></div>
+                    </div>
+                </div>
+
+                <div class="one-fourth">
+                    <div class="random-numbers">
+                        <img src="images/110.jpg" alt="" width="52" height="52" />
+                        <p>satisfied customers</p>
+                        <span class="number">1590</span>
+                    </div>
+                </div>
+
+                <div class="one-fourth ">
+                    <div class="random-numbers">
+                        <img src="images/25.jpg" alt="" width="52" height="52" />
+                        <p>Freelance projects</p>
+                        <span class="number">65</span>
+                    </div>
+                </div>
+
+                <div class="one-fourth ">
+                    <div class="random-numbers">
+                        <img src="images/31.jpg" alt="" width="52" height="52" />
+                        <p>sales on themeforest</p>
+                        <span class="number">12.845</span>
+                    </div>
+                </div>
+
+                <div class="one-fourth last">
+                    <div class="random-numbers">
+                        <img src="images/happy.jpg" alt="" width="52" height="52" />
+                        <p>...happy customers</p>
+                        <span class="number">22.000+</span>
+                    </div>
+                </div>
+            </div>
             <!-- END EXTRA CONTENT -->
+
         </div>
     </div>
 </div>
@@ -1099,7 +905,10 @@
 </div>
 <!-- END BG SHADOW -->
 
-<script type='text/javascript' src='sliders/thumbnails/js/jquery.aw-showcase.js'></script>
+
+<!-- START CUSTOM SCRIPT -->
+<!-- END CUSTOM SCRIPT -->
+
 <script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
 <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
 <script type='text/javascript' src='js/jquery.tweetable.js'></script>

@@ -33,22 +33,26 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
     <!-- MAIN THEME STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
     <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='filterable-elegant-css'  href='portfolios/filterable/css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' id='tipsy-css'  href='css/tipsy.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='fonts-css'  href='css/font-awesome.css' type='text/css' media='all' />
     <link rel='stylesheet' id='full-descriptor-css'  href='portfolios/full-description/css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' id='slide-details-css'  href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flex-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='colorbox-css'  href='css/colorbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='thumbnails-css'  href='sliders/thumbnails/css/thumbnails.css' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-button-mfast-3-css'  href='css/buttons/mfast-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='rs-css'  href='sliders/revolution-slider/css/slider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-settings-css'  href='sliders/revolution-slider/rs-plugin/css/settings.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-captions-css'  href='sliders/revolution-slider/rs-plugin/css/captions.css' type='text/css' media='all' />
 
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -65,11 +69,12 @@
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
 
-    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
+
 
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
 </head>
 <!-- END HEAD -->
+
 <!-- START BODY -->
 <body class="home page no_js responsive stretched">
 
@@ -78,6 +83,7 @@
 
 <!-- START WRAPPER -->
 <div id="wrapper" class="container group">
+<!-- START TOP BAR -->
 
 <!-- START TOP BAR -->
 <div id="topbar">
@@ -100,7 +106,8 @@
                 </script>
 
             </div>
-            <div id="text-8" class="widget-2 widget-last span6 widget widget_text">
+
+            <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
                     <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
@@ -112,8 +119,7 @@
 
                     <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
 
-                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a>
-                </div>
+                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
             </div>
         </div>
     </div>
@@ -137,6 +143,7 @@
         });
     });
 </script>
+
 <!-- END TOP BAR -->
 
 <!-- START HEADER -->
@@ -159,7 +166,7 @@
                         <!-- START MAIN NAVIGATION -->
                         <div class="menu">
                             <ul id="nav" class="sf-menu">
-                                <li class="nav-icon-hi">
+                                <li class="nav-icon-hi current_page_item">
                                     <a href="index.html">
                                         Home
                                         <div style="position:absolute; left: 50%;">
@@ -233,7 +240,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-icon-monitor current_page_item">
+                                <li class="nav-icon-monitor">
                                     <a href="#">
                                         Sliders
                                         <div style="position:absolute; left: 50%;">
@@ -257,7 +264,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="current-menu-item">
+                                        <li>
                                             <a href="sliders-thumbnails.html">Thumbnails
                                                 <div style="position:absolute; left: 50%;">
                                                     <span class="triangle">&nbsp;</span>
@@ -348,7 +355,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-icon-works">
+                                <li class="nav-icon-works current_page_item">
                                     <a href="#">
                                         Portfolio
                                         <div style="position:absolute; left: 50%;">
@@ -372,7 +379,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="current-menu-item">
                                             <a href="portfolio-filterable.html">
                                                 Portfolio Filterable
                                                 <div style="position:absolute; left: 50%;">
@@ -542,415 +549,578 @@
 </div>
 <!-- END HEADER -->
 
-<!-- START SLIDER -->
-<div id="slider-thumbnails" class="slider slider-thumbnails thumbnails group container">
-<div class="showcase group">
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Bite2.jpeg" class="attachment-full" alt="Bite2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Bite2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="420,95">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Cool glasses
-        </a>
-    </div>
-</div>
+<!-- START PAGE META -->
 
 
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="380" src="images/slider/Dog2.jpeg" class="attachment-full" alt="Dog2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
 
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Dog2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
+<!-- END PAGE META -->
 
+<!-- START PRIMARY -->
+<div id="primary" class="sidebar-no">
+<div class="container group">
+<div class="row">
 
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Brunettes2.jpeg" class="attachment-full" alt="Brunettes2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
+<!-- START CONTENT -->
+<div id="content-home" class="span12 content group">
+<div class="page type-page status-publish hentry group">
 
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Brunettes2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Friends2.jpeg" class="attachment-full" alt="Friends2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Friends2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="378" src="images/slider/Grayscale2.jpeg" class="attachment-full" alt="Grayscale2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Grayscale2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/017.jpg" class="attachment-full" alt="017" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/017-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/016.jpg" class="attachment-full" alt="016" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/016-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="399" src="images/slider/011.jpg" class="attachment-full" alt="011" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/011-60x60.jpg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/012.jpg" class="attachment-full" alt="012" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0041.jpg" class="attachment-full" alt="004" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0041-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0051.jpg" class="attachment-full" alt="005" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0051-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0012.jpg" class="attachment-full" alt="001" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/007.jpg" class="attachment-full" alt="007" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/007-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/008.jpg" class="attachment-full" alt="008" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/008-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="475,65">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Snow glasses            </a>
-    </div>
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0021.jpg" class="attachment-full" alt="002" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0021-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="402" src="images/slider/015.jpg" class="attachment-full" alt="015" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/015-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-</div>
-</div>
-<!-- END SLIDER -->
-
-<script type="text/javascript">
+<script>
     jQuery(document).ready(function($){
-        $('#slider-thumbnails.thumbnails img.attachment-full').css('width', '1148px').css('height', '378px');
-        var resize_height_thumbnail = function(){
-            if ( ! $('body').hasClass('responsive') ) {
-                return;
-            }
+        $('.sidebar').remove();
 
-            $('.showcase-content-container, .showcase-content').height( $('.showcase-content-wrapper').outerHeight() );
-            $('#slider-thumbnails.thumbnails .showcase-content-wrapper img').css({
-                width : $('#slider-thumbnails.slider.thumbnails .showcase-content').width() - 22
-            });
-            var arrow_width = parseInt( $('#slider-thumbnails .showcase-thumbnail-restriction').css('margin-left').replace( 'px', '' ) );
-            var thumbnails_container_width = $('#slider-thumbnails .showcase-thumbnail-container').width();
-            $('#slider-thumbnails .showcase-thumbnail-restriction').width( thumbnails_container_width - arrow_width*2 );
-        };
-        $(window).resize(resize_height_thumbnail);
-
-        var content_width  = 1148 + 22;
-        var content_height = 378 + 22;
-
-        if ( content_width > $('.slider.thumbnails .showcase').width() ) {
-            content_width = $('.slider.thumbnails .showcase').width();
+        if( !$('#primary').hasClass('sidebar-no') ) {
+            $('#primary').removeClass().addClass('sidebar-no');
+            $('.content').removeClass('span9').addClass('span12');
         }
 
-        $("#slider-thumbnails .showcase").awShowcase({
-            content_width           : content_width,
-            content_height          : content_height,
-            show_caption            : 'onload', /* onload/onhover/show */
-            continuous              : true,
-            buttons                 : false,
-            auto                    : true,
-            thumbnails              : true,
-            transition              : 'fade', /* hslide / vslide / fade */
-            interval                : 3000,
-            transition_speed        : 800,
-            thumbnails_position     : 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
-            thumbnails_direction    : 'horizontal', /* vertical/horizontal */
-            thumbnails_slidex       : 1, /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
-            onload                  : function(){
-                $( window ).load(function(){
-                    resize_height_thumbnail();
-                });
-            },
-            onchange         : resize_height_thumbnail
+    });
+</script>
+
+<div class="row">
+    <div class="span12">
+        <ul class="filters">
+            <li><a class="active" href="portfolio-filterable/?cat" data-option-value="*">All</a></li>
+            <li>|| <a href="portfolio-filterable/?cat=brandidentity" data-option-value=".brandidentity">Brand Identity</a></li>
+            <li>|| <a href="portfolio-filterable/?cat=logodesign" data-option-value=".logodesign">Logo Design</a></li>
+            <li>|| <a href="portfolio-filterable/?cat=printdesign" data-option-value=".printdesign">Print Design</a></li>
+            <li>|| <a href="portfolio-filterable/?cat=webdesign" data-option-value=".webdesign">Web Design</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="row">
+<ul id="portfolio" class="slide-detail detail thumbnails">
+
+
+<li  class="filterable_item span3 brandidentity  logodesign  webdesign  first">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/001-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/001.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Bob Miller</p>
+                <p class="subtitle">Photoshop</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+
+                        <div class="extra-images-slider">
+                            <ul class="slides">
+                                <li>
+                                    <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                </li>
+                                <li>
+                                    <img width="574" height="340" src="images/portfolios/001-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="001" />
+                                </li>
+                                <li>
+                                    <img width="574" height="340" src="images/portfolios/0062-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="006" />
+                                </li>
+                            </ul>
+                        </div>
+                        <script type="text/javascript">
+                            jQuery(document).ready(function($){
+                                $('.extra-images-slider').flexslider({
+                                    controlNav: false
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Bob Miller</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.<!--more--></p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui.
+                        Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et. Sed
+                        <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>
+                        ut purus elementum a consectetur purus vulputate
+                    </p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> Photoshop, Illustrator
+                        </p>
+                        <p class="customer"><span class="meta-label">Customer:</span> Bob Miller </p>
+                        <p class="workdate"><span class="meta-label">Year:</span> 2012</p>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="filterable_item span3 brandidentity  logodesign ">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/blog/0023-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/blog/0023.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+            <div class="ch-info-text">
+                <p class="title">Vitale Premium</p>
+                <p class="subtitle">Illustrator</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+
+
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/0023-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="002" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Vitale Premium</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> Brand Identity, Web Design
+                        </p>
+                        <p class="customer">
+                            <span class="meta-label">Customer:</span> Vitale Premium - <a href="http://vitale.com">vitale.com</a>
+                        </p>
+                        <p class="workdate"><span class="meta-label">Year:</span> 2002</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="filterable_item span3 brandidentity  logodesign ">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00311-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/0037.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Nili Studios</p>
+                <p class="subtitle">Photoshop</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+
+
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/0034-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="003" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Nili Studios</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links"><span class="meta-label">Project:</span> Photoshop, InDesign</p>
+                        <p class="customer"><span class="meta-label">Customer:</span> Nili Studios </p>
+                        <p class="workdate"><span class="meta-label">Year:</span> 2008</p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="filterable_item span3 webdesign ">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0047-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/0411.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Digitpool Medien</p>
+                <p class="subtitle">Brand identity</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/0043-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="004" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Digitpool Medien</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="customer">
+                            <span class="meta-label">Customer:</span> Digitpool Medien
+                        </p>
+                        <p class="workdate">
+                            <span class="meta-label">Year:</span> 2009
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+<hr />
+
+<li  class="filterable_item span3 brandidentity  webdesign  first">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/00511-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/0051.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" /></a>									</div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Colorful Oktopus</p>
+                <p class="subtitle">Oktopus</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+
+
+                        <a class="thumb"><img width="574" height="340" src="images/portfolios/0054-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="005" /></a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Colorful Oktopus</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> package, prints, website
+                        </p>
+                        <p class="customer"><span class="meta-label">Customer:</span> Colorful Oktopus </p>
+                        <p class="workdate"><span class="meta-label">Year:</span> 2005</p>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="filterable_item span3 brandidentity  webdesign ">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0072-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/0071.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+            <div class="ch-info-text">
+                <p class="title">Kimeda</p>
+                <p class="subtitle">Logo design</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/0072-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="007" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Kimeda</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> business card, prints
+                        </p>
+                        <p class="customer">
+                            <span class="meta-label">Customer:</span> Kimeda
+                        </p>
+                        <p class="workdate">
+                            <span class="meta-label">Year:</span> 2012
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="filterable_item span3 brandidentity  logodesign  webdesign ">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/piggie88-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/piggie82.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Steep This! </p>
+                <p class="subtitle">brand identity</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+
+
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/piggie88-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="008" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Steep This! </h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> business card, prints, website
+                        </p>
+                        <p class="customer">
+                            <span class="meta-label">Customer:</span> Steep This!
+                        </p>
+                        <p class="workdate">
+                            <span class="meta-label">Year:</span> 2004
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+
+
+<li  class="last filterable_item span3 logodesign printdesign">
+
+    <div class="ch-item ch-item-hover" style="background: url('images/portfolios/0098-260x172.jpg') no-repeat center;">
+
+        <div class="ch-info">
+            <div class="ch-info-icons">
+                <a href="images/portfolios/009.jpg" rel="lightbox" class="ch-info-lightbox">
+                    <img src="images/icons/zoom.png" alt="Open Lightbox" />
+                </a>
+                <a href="portfolio-slide-detail.html" >
+                    <img src="images/icons/project.png" alt="" />
+                </a>
+            </div>
+
+
+            <div class="ch-info-text">
+                <p class="title">Guanacos</p>
+                <p class="subtitle">corporate</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide_detail" style="background-color: #f1f4f5;">
+        <div class="container portfolio-full-description">
+            <div class="slide_close">[x] Close</div>
+            <div class="page type-page status-publish hentry work group row">
+                <div class="work-thumbnail span6">
+                    <div class="thumb-wrapper">
+                        <a class="thumb">
+                            <img width="574" height="340" src="images/portfolios/0091-574x340.jpg" class="attachment-thumb_portfolio_fulldesc" alt="009" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="work-description span6">
+                    <h3>Guanacos</h3>
+                    <p>Nullam volutpat, mauris scelerisque iaculis semper, justo odio rutrum urna, at cursus urna nisl et ipsum. Donec dapibus lacus nec sapien faucibus eget suscipit lorem mattis.</p>
+                    <p>Donec non mauris ac nulla consectetur pretium sit amet rhoncus neque. Maecenas aliquet, diam sed rhoncus vestibulum,<strong> sem lacus ultrice</strong>s est, eu hendrerit tortor nulla in dui. Suspendisse enim purus, euismod interdum viverra eget, ultricies eu est. Maecenas dignissim mauris id est semper suscipit. Suspendisse venenatis vestibulum quam, quis porttitor arcu vestibulum et.</p>
+                    <p>Sed <a href="http://yourinspirationweb.com/demo/sheeva/work/xmas-icons/#">porttitor eros</a>ut purus elementum a consectetur purus vulputate</p>
+
+                    <div class="work-skillsdate span6">
+                        <p class="categories paragraph-links">
+                            <span class="meta-label">Project:</span> prints, website
+                        </p>
+                        <p class="customer">
+                            <span class="meta-label">Customer:</span> Guanacos
+                        </p>
+                        <p class="workdate">
+                            <span class="meta-label">Year:</span> 2011
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</li>
+<hr />
+<hr />
+</ul>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    jQuery(document).ready(function($){
+
+        //filterable
+        var container = $('#portfolio');
+
+        container.find('hr').remove();
+        container.imagesLoaded( function(){
+            container.isotope({
+                itemSelector: 'li.filterable_item',
+                itemPositionDataEnabled: true
+            });
+        });
+
+        $('.filters li a').click(function(){
+            $('.filters li a').removeClass('active');
+            $(this).addClass('active');
+
+            $('.ch-item').removeClass('ch-item-opened');
+            $('.slide_detail').slideUp('slow');
+            $('ul#portfolio hr').slideUp('slow');
+
+            var selector = $(this).attr('data-option-value');
+
+            container.isotope({ filter: selector });
+
+            return false;
+        }).filter(':first').click();
+
+        $(window).resize(function(){
+            $('.filters li a.active').click();
         });
     });
 </script>
 
-<!-- START PRIMARY -->
-<div id="primary" class="sidebar-no">
-    <div class="container group">
-        <div class="row">
-            <!-- START CONTENT -->
-            <div id="content-page" class="span12 content group">
-                <div id="post-711" class="post-711 page type-page status-publish hentry group">
-                    <div class="border-line"></div>
 
-                    <div class="one-fourth ">
-                        <h3>A responsive design</h3>
-                        <p><img class="size-full wp-image-817 aligncenter" title="responsive" src="images/responsive.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
+</div>
+<!-- START COMMENTS -->
+<div id="comments"></div>
+<!-- END COMMENTS -->
+</div>
+<!-- END CONTENT -->
 
-                    <div class="one-fourth ">
-                        <h3>Shortcode manager</h3>
-                        <p><a href="images/shortcodes.png"><img class="alignleft size-full wp-image-819" title="shortcodes" src="images/shortcodes.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
+<!-- START EXTRA CONTENT -->
+<!-- END EXTRA CONTENT -->
 
-                    <div class="one-fourth ">
-                        <h3>Creative portfolio</h3>
-                        <p><a href="images/celestino.png"><img class="size-full wp-image-823 aligncenter" title="celestino" src="images/celestino.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-
-                    <div class="one-fourth last">
-                        <h3>Unlimited colors</h3>
-                        <p><img class="aligncenter size-full wp-image-828" title="unlimitedcolors" src="images/unlimitedcolors.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
-                </div>
-                <!-- START COMMENTS -->
-                <div id="comments">
-                </div>
-                <!-- END COMMENTS -->
-            </div>
-            <!-- END CONTENT -->
-
-            <!-- START EXTRA CONTENT -->
-            <!-- END EXTRA CONTENT -->
-        </div>
-    </div>
+</div>
+</div>
 </div>
 <!-- END PRIMARY -->
 
@@ -1099,7 +1269,10 @@
 </div>
 <!-- END BG SHADOW -->
 
-<script type='text/javascript' src='sliders/thumbnails/js/jquery.aw-showcase.js'></script>
+<!-- START CUSTOM SCRIPT -->
+
+<!-- END CUSTOM SCRIPT -->
+
 <script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
 <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
 <script type='text/javascript' src='js/jquery.tweetable.js'></script>

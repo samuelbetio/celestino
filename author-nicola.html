@@ -33,22 +33,23 @@
     <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css" />
     <!-- MAIN THEME STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+
+    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-css'  href='css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed:300,400,800%3A300%7CRokkitt%7CShadows+Into+Light%7CMaven+Pro:400,700%7CAbel%7CMontez' type='text/css' media='all' />
     <link rel='stylesheet' id='responsive-css'  href='css/responsive.css' type='text/css' media='all' />
     <link rel='stylesheet' id='tipsy-css'  href='css/tipsy.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='fonts-css'  href='css/font-awesome.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='full-descriptor-css'  href='portfolios/full-description/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='slide-details-css'  href='portfolios/slide-detail/css/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flex-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-css'  href='sliders/flexslider/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='flexslider-elegant-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='slide-details-css'  href='sliders/flexslider-elegant/css/flexslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexislider-css'  href='sliders/flexslider/css/slider.css' type='text/css' media='all' />
     <link rel='stylesheet' id='shortcode-css'  href='css/shortcodes.css' type='text/css' media='all' />
 
     <link rel='stylesheet' id='colorbox-css'  href='css/colorbox.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='thumbnails-css'  href='sliders/thumbnails/css/thumbnails.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='elegant-css'  href='blog/elegant/css/style.css' type='text/css' media='all' />
     <link rel='stylesheet' id='custom-button-mfast-3-css'  href='css/buttons/mfast-3.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='comment-css'  href='css/comment.css' type='text/css' media='all' />
+
 
     <!-- [favicon] begin -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -65,11 +66,10 @@
     <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
     <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-57x.png" />
 
-    <link rel='stylesheet' id='thickbox-css'  href='js/thickbox/thickbox.css' type='text/css' media='all' />
-
     <script type='text/javascript' src='js/jquery/jquery.js'></script>
 </head>
 <!-- END HEAD -->
+
 <!-- START BODY -->
 <body class="home page no_js responsive stretched">
 
@@ -78,6 +78,7 @@
 
 <!-- START WRAPPER -->
 <div id="wrapper" class="container group">
+<!-- START TOP BAR -->
 
 <!-- START TOP BAR -->
 <div id="topbar">
@@ -100,7 +101,8 @@
                 </script>
 
             </div>
-            <div id="text-8" class="widget-2 widget-last span6 widget widget_text">
+
+            <div id="text-8" class=" widget-last span6 widget widget_text">
                 <div class="textwidget">
                     <a href="# " class="socials-small facebook-small" title="Facebook"  >facebook</a>
 
@@ -112,8 +114,7 @@
 
                     <a href="#" class="socials-small linkedin-small" title="Linkedin"  >linkedin</a>
 
-                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a>
-                </div>
+                    <a href="#" class="socials-small pinterest-small" title="Pinterest"  >pinterest</a></div>
             </div>
         </div>
     </div>
@@ -137,6 +138,7 @@
         });
     });
 </script>
+
 <!-- END TOP BAR -->
 
 <!-- START HEADER -->
@@ -233,7 +235,7 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-icon-monitor current_page_item">
+                                <li class="nav-icon-monitor">
                                     <a href="#">
                                         Sliders
                                         <div style="position:absolute; left: 50%;">
@@ -257,7 +259,7 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="current-menu-item">
+                                        <li>
                                             <a href="sliders-thumbnails.html">Thumbnails
                                                 <div style="position:absolute; left: 50%;">
                                                     <span class="triangle">&nbsp;</span>
@@ -542,415 +544,331 @@
 </div>
 <!-- END HEADER -->
 
-<!-- START SLIDER -->
-<div id="slider-thumbnails" class="slider slider-thumbnails thumbnails group container">
-<div class="showcase group">
+<!-- START PAGE META -->
+<div id="page-meta" class="container">
 
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Bite2.jpeg" class="attachment-full" alt="Bite2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
 
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Bite2-60x60.jpeg" width="60" height="60" />
-    </div>
+    <!-- BREDCRUMB -->
+    <div class="breadcrumbs">
+        <p id="yit-breadcrumb" itemprop="breadcrumb">
 
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="420,95">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Cool glasses
-        </a>
+            <a class="home" href="index.html">
+                Home Page
+            </a> &gt;
+
+            <a class="no-link current" href="#">
+                Articles posted by Nicola Mustone
+            </a>
+        </p>
     </div>
 </div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="380" src="images/slider/Dog2.jpeg" class="attachment-full" alt="Dog2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Dog2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Brunettes2.jpeg" class="attachment-full" alt="Brunettes2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Brunettes2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1170" height="378" src="images/slider/Friends2.jpeg" class="attachment-full" alt="Friends2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Friends2-60x60.jpeg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="378" src="images/slider/Grayscale2.jpeg" class="attachment-full" alt="Grayscale2" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/Grayscale2-60x60.jpeg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/017.jpg" class="attachment-full" alt="017" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/017-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/016.jpg" class="attachment-full" alt="016" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/016-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="399" src="images/slider/011.jpg" class="attachment-full" alt="011" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/011-60x60.jpg" width="60" height="60" />
-    </div>
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/012.jpg" class="attachment-full" alt="012" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0041.jpg" class="attachment-full" alt="004" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0041-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0051.jpg" class="attachment-full" alt="005" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0051-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/0012.jpg" class="attachment-full" alt="001" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0012-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/007.jpg" class="attachment-full" alt="007" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/007-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="938" height="308" src="images/slider/008.jpg" class="attachment-full" alt="008" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/008-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-    <div class="showcase-tooltips">
-        <!-- Each anchor in .showcase-tooltips represents a tooltip.
-        The coords attribute represents the position of the tooltip. -->
-        <a href="" coords="475,65">
-            <!-- The content of the anchor-tag is displayed in the tooltip. -->
-            Snow glasses            </a>
-    </div>
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="400" src="images/slider/0021.jpg" class="attachment-full" alt="002" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/0021-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-<div class="showcase-slide">
-    <div class="showcase-content">
-        <!-- If the slide contains multiple elements you should wrap them in a div with the class
-        .showcase-content-wrapper. We usually wrap even if there is only one element,
-        because it looks better. -->
-        <div class="showcase-content-wrapper">
-            <img width="1200" height="402" src="images/slider/015.jpg" class="attachment-full" alt="015" />
-        </div>
-    </div>
-    <!-- Put the caption content in a div with the class .showcase-caption -->
-
-    <div class="showcase-thumbnail">
-        <img src="images/slider/015-60x60.jpg" width="60" height="60" />
-    </div>
-
-    <!-- Put the tooltips in a div with the class .showcase-tooltips. -->
-</div>
-
-</div>
-</div>
-<!-- END SLIDER -->
-
-<script type="text/javascript">
-    jQuery(document).ready(function($){
-        $('#slider-thumbnails.thumbnails img.attachment-full').css('width', '1148px').css('height', '378px');
-        var resize_height_thumbnail = function(){
-            if ( ! $('body').hasClass('responsive') ) {
-                return;
-            }
-
-            $('.showcase-content-container, .showcase-content').height( $('.showcase-content-wrapper').outerHeight() );
-            $('#slider-thumbnails.thumbnails .showcase-content-wrapper img').css({
-                width : $('#slider-thumbnails.slider.thumbnails .showcase-content').width() - 22
-            });
-            var arrow_width = parseInt( $('#slider-thumbnails .showcase-thumbnail-restriction').css('margin-left').replace( 'px', '' ) );
-            var thumbnails_container_width = $('#slider-thumbnails .showcase-thumbnail-container').width();
-            $('#slider-thumbnails .showcase-thumbnail-restriction').width( thumbnails_container_width - arrow_width*2 );
-        };
-        $(window).resize(resize_height_thumbnail);
-
-        var content_width  = 1148 + 22;
-        var content_height = 378 + 22;
-
-        if ( content_width > $('.slider.thumbnails .showcase').width() ) {
-            content_width = $('.slider.thumbnails .showcase').width();
-        }
-
-        $("#slider-thumbnails .showcase").awShowcase({
-            content_width           : content_width,
-            content_height          : content_height,
-            show_caption            : 'onload', /* onload/onhover/show */
-            continuous              : true,
-            buttons                 : false,
-            auto                    : true,
-            thumbnails              : true,
-            transition              : 'fade', /* hslide / vslide / fade */
-            interval                : 3000,
-            transition_speed        : 800,
-            thumbnails_position     : 'outside-last', /* outside-last/outside-first/inside-last/inside-first */
-            thumbnails_direction    : 'horizontal', /* vertical/horizontal */
-            thumbnails_slidex       : 1, /* 0 = auto / 1 = slide one thumbnail / 2 = slide two thumbnails / etc. */
-            onload                  : function(){
-                $( window ).load(function(){
-                    resize_height_thumbnail();
-                });
-            },
-            onchange         : resize_height_thumbnail
-        });
-    });
-</script>
+<!-- END PAGE META -->
 
 <!-- START PRIMARY -->
-<div id="primary" class="sidebar-no">
-    <div class="container group">
-        <div class="row">
-            <!-- START CONTENT -->
-            <div id="content-page" class="span12 content group">
-                <div id="post-711" class="post-711 page type-page status-publish hentry group">
-                    <div class="border-line"></div>
+<div id="primary" class="sidebar-right">
+<div class="container group">
+<div class="row">
+<!-- START CONTENT -->
+<div id="content-index" class="span9 content group">
+    <div class="post type-post status-publish format-gallery hentry category-web-design tag-design tag-developing tag-web hentry-post group blog-elegant">
+        <!-- post featured & title -->
+        <div class="thumbnail">
+            <div class="row">
+                <!-- post meta -->
+                <div class="meta group span3">
+                    <div>
+                        <h2 class="post-title">
+                            <a href="blog-detail.html">
+                                This is the title of the first article. Enjoy it.
+                            </a>
+                        </h2>
+                        <p class="author">
+                            <img src="images/icons/author.png" alt="icon-user" />
+                            <span>Author:</span>
+                            <a href="author-nicola.html" title="Posts by Nicola Mustone" rel="author">
+                                Nicola Mustone
+                            </a>
+                        </p>
 
-                    <div class="one-fourth ">
-                        <h3>A responsive design</h3>
-                        <p><img class="size-full wp-image-817 aligncenter" title="responsive" src="images/responsive.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
+                        <p class="date">
+                            <img src="images/icons/date.png" alt="icon-calendar" />
+                            <span>Date:</span> October 8, 2012
+                        </p>
                     </div>
 
-                    <div class="one-fourth ">
-                        <h3>Shortcode manager</h3>
-                        <p><a href="images/shortcodes.png"><img class="alignleft size-full wp-image-819" title="shortcodes" src="images/shortcodes.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
+                    <div>
+                        <p class="comments">
+                            <img src="images/icons/comments.png" alt="icon-comment" />
+                                        <span>
+                                            <a href="blog-detail.html#respond" title="Comment on This is the title of the first article. Enjoy it.">
+                                                <span>Comments:</span> 0
+                                            </a>
+                                        </span>
+                        </p>
                     </div>
 
-                    <div class="one-fourth ">
-                        <h3>Creative portfolio</h3>
-                        <p><a href="images/celestino.png"><img class="size-full wp-image-823 aligncenter" title="celestino" src="images/celestino.png" alt="" width="220" height="131" /></a></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
+                    <div>
+                        <div class="socials">
+                            <h2>Share on</h2>
+                            <a href="#" class="socials-small facebook-small" title="Facebook" target="_blank" >facebook</a>
+                            <a href="#" class="socials-small twitter-small" title="Twitter" target="_blank" >twitter</a>
+                            <a href="#" class="socials-small google-small" title="Google" target="_blank" >google</a>
+                            <a href="#" class="socials-small pinterest-small" title="Pinterest" target="_blank" >pinterest</a>
+                        </div>
                     </div>
-
-                    <div class="one-fourth last">
-                        <h3>Unlimited colors</h3>
-                        <p><img class="aligncenter size-full wp-image-828" title="unlimitedcolors" src="images/unlimitedcolors.png" alt="" width="220" height="131" /></p>
-                        <p>Praesent ultricies iaculis erat iaculis feugiat. Sed suscipit tempor felis, sit amet aliquam nunc sollicitudin sed.</p>
-                    </div>
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
                 </div>
-                <!-- START COMMENTS -->
-                <div id="comments">
+
+                <!-- post title -->
+                <div class="the-content span6">
+                    <div>
+                        <img width="539" height="230" src="images/portfolios/23-539x230.jpg" class="thumbnail wp-post-image" alt="23" />
+                        <span class="post-format gallery">Gallery</span>
+
+                        <!-- post content -->
+                        <div class="the-content">
+                            <p>Fusce nec accumsan eros. Aenean ac orci a magna vestibulum posuere quis nec nisi. Maecenas rutrum vehicula condimentum.
+                                Donec volutpat nisl ac mauris consectetur gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec vel vulputate nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames [...]
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!-- END COMMENTS -->
             </div>
-            <!-- END CONTENT -->
-
-            <!-- START EXTRA CONTENT -->
-            <!-- END EXTRA CONTENT -->
         </div>
     </div>
+    <div class="post type-post status-publish format-gallery hentry category-web-design tag-design tag-developing tag-web hentry-post group blog-elegant">
+        <!-- post featured & title -->
+        <div class="thumbnail">
+            <div class="row">
+                <!-- post meta -->
+                <div class="meta group span3">
+                    <div>
+                        <h2 class="post-title">
+                            <a href="section-shortcodes-sticky-posts.html">
+                                Section shortcodes & sticky posts!
+                            </a>
+                        </h2>
+                        <p class="author">
+                            <img src="images/icons/author.png" alt="icon-user" />
+                            <span>Author:</span>
+                            <a href="author-nicola.html" title="Posts by Nicola Mustone" rel="author">
+                                Nicola Mustone
+                            </a>
+                        </p>
+
+                        <p class="date">
+                            <img src="images/icons/date.png" alt="icon-calendar" />
+                            <span>Date:</span> October 8, 2012
+                        </p>
+                    </div>
+
+                    <div>
+                        <p class="comments">
+                            <img src="images/icons/comments.png" alt="icon-comment" />
+                                        <span>
+                                            <a href="blog-detail.html#respond" title="Comment on This is the title of the first article. Enjoy it.">
+                                                <span>Comments:</span> 0
+                                            </a>
+                                        </span>
+                        </p>
+                    </div>
+
+                    <div>
+                        <div class="socials">
+                            <h2>Share on</h2>
+                            <a href="#" class="socials-small facebook-small" title="Facebook" target="_blank" >facebook</a>
+                            <a href="#" class="socials-small twitter-small" title="Twitter" target="_blank" >twitter</a>
+                            <a href="#" class="socials-small google-small" title="Google" target="_blank" >google</a>
+                            <a href="#" class="socials-small pinterest-small" title="Pinterest" target="_blank" >pinterest</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- post title -->
+                <div class="the-content span6">
+                    <div>
+                        <img width="539" height="230" src="images/slider/3-539x230.jpg" class="thumbnail wp-post-image" alt="23" />
+                        <span class="post-format gallery">Gallery</span>
+
+                        <!-- post content -->
+                        <div class="the-content">
+                            <p>Fusce nec accumsan eros. Aenean ac orci a magna vestibulum posuere quis nec nisi. Maecenas rutrum vehicula condimentum.
+                                Donec volutpat nisl ac mauris consectetur gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Donec vel vulputate nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames [...]
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END CONTENT -->
+
+<!-- START SIDEBAR -->
+<div id="sidebar-default-sidebar" class="span3 sidebar group">
+    <div class="widget-first widget widget_search">
+        <form role="search" method="get" id="searchform" action="index.html">
+            <div>
+                <label class="screen-reader-text" for="s">Search for:</label>
+                <input type="text" value="" name="s" id="s" />
+                <input type="submit" id="searchsubmit" value="Search" />
+                <input type="hidden" name="post_type" value="post" />
+            </div>
+        </form>
+    </div>
+    <div class="widget-2 widget recent-posts">
+        <div class="recent-post group">
+            <div class="hentry-post group">
+                <div class="thumb-img">
+                    <img width="55" height="55" src="images/slider/23-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="23" />
+                </div>
+
+                <div class="text">
+                    <a href="blog-detail.html" title="This is the title of the first article. Enjoy it." class="title">
+                        This is the title of the first article. Enjoy it.
+                    </a>
+                    <p>Fusce nec accumsan eros. Aenean ac orci a magna vestibulum [...]</p>
+                </div>
+            </div>
+
+            <div class="hentry-post group">
+                <div class="thumb-img">
+                    <img width="55" height="55" src="images/blog/imgbloh-55x55.jpg" class="attachment-blog_thumb wp-post-image" alt="imgbloh" />
+                </div>
+                <div class="text">
+                    <a href="#" title="Nice &amp; Clean. The best for your blog!" class="title">
+                        Nice &amp; Clean. The best for your blog!
+                    </a>
+                    <p>Fusce nec accumsan eros. Aenean ac orci a magna vestibulum [...]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="widget-3 widget-last widget recent-comments">
+        <h3>Recent comments</h3>
+        <div class="recent-post recent-comments group">
+
+            <div class="the-post group">
+                <div class="avatar">
+                    <img alt='' src='images/gavatgar.png' class='avatar avatar-55 photo' height='55' width='55' />
+                </div>
+
+                    <span class="author">
+                        <strong>
+                            <a href="http://liquidherbalkamagra-kamagrabyajantapharma">
+                                Invinygaicy
+                            </a>
+                        </strong> in
+                    </span>
+
+                <a class="title" href="#">
+                    Nice &amp; Clean. The best for your blog!
+                </a>
+
+                <p class="comment">
+                    Hello! check: - on line ajanta pharma kamagra - kamagra ajanta pharma...
+                    <a class="goto" href="#">&#187;</a>
+                </p>
+            </div>
+
+            <div class="the-post group">
+                <div class="avatar">
+                    <img alt='' src='images/gavatgar.png' class='avatar avatar-55 photo' height='55' width='55' />
+                </div>
+                    <span class="author">
+                        <strong>
+                            <a href="mailto:vecwwecoolgisy@gmail.com">
+                                Flolintyfoele
+                            </a>
+                        </strong> in
+                    </span>
+
+                <a class="title" href="#">
+                    Nice &amp; Clean. The best for your blog!
+                </a>
+
+                <p class="comment">
+                    Доброго времени суток!Хотите заказать одежду на выгодных условиях? Тогда читайте новость -...
+                    <a class="goto" href="#">&#187;</a>
+                </p>
+            </div>
+
+            <div class="the-post group">
+                <div class="avatar">
+                    <img alt='' src='images/gavatgar.png' class='avatar avatar-55 photo' height='55' width='55' />
+                </div>
+                    <span class="author">
+                        <strong>
+                            <a href="mailto:niilygisy@gmail.com">
+                                OutlillAuthow
+                            </a>
+                        </strong> in
+                    </span>
+
+                <a class="title" href="#">
+                    Nice &amp; Clean. The best for your blog!
+                </a>
+
+                <p class="comment">
+                    Привет Всем!Оформить заказ выгодный для Вас! Тогда читайте новость - онлайн займ...
+                    <a class="goto" href="#">&#187;</a>
+                </p>
+            </div>
+
+            <div class="the-post group">
+                <div class="avatar">
+                    <img alt='' src='images/gavatgar.png' class='avatar avatar-55 photo' height='55' width='55' />
+                </div>
+
+                    <span class="author">
+                        <strong>
+                            <a href="mailto:sgasgs@dsbwvww.gr">
+                                sgdfssgf
+                            </a>
+                        </strong> in
+                    </span>
+
+                <a class="title" href="#">
+                    Section shortcodes &amp; sticky posts!
+                </a>
+
+                <p class="comment">
+                    dvwbreberberber
+                    <a class="goto" href="#">&#187;</a>
+                </p>
+            </div>
+
+            <div class="the-post group">
+                <div class="avatar">
+                    <img alt='' src='images/gavatgar.png' class='avatar avatar-55 photo' height='55' width='55' />
+                </div>
+                    <span class="author">
+                        <strong>
+                            <a href="http://guildeomnium.fr/">
+                                gglol
+                            </a>
+                        </strong> in
+                    </span>
+
+                <a class="title" href="#">
+                    Nice &amp; Clean. The best for your blog!
+                </a>
+
+                <p class="comment">
+                    erzezrzrzerzr
+                    <a class="goto" href="#">&#187;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END SIDEBAR -->
+
+</div>
+</div>
 </div>
 <!-- END PRIMARY -->
 
@@ -1099,13 +1017,16 @@
 </div>
 <!-- END BG SHADOW -->
 
-<script type='text/javascript' src='sliders/thumbnails/js/jquery.aw-showcase.js'></script>
+
+
+<!-- START CUSTOM SCRIPT -->
+
+<!-- END CUSTOM SCRIPT -->
+
 <script type='text/javascript' src='js/jquery.colorbox-min.js'></script>
 <script type='text/javascript' src='js/jquery.flexslider-min.js'></script>
 <script type='text/javascript' src='js/jquery.tweetable.js'></script>
 <script type='text/javascript' src='js/jquery.superfish.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.plugins.min.js'></script>
-<script type='text/javascript' src='js/jquery.themepunch.revolution.js'></script>
 <script type='text/javascript' src='portfolios/filterable/js/jquery.filterable.js'></script>
 <script type='text/javascript' src='js/jquery.tipsy.js'></script>
 <script type='text/javascript' src='js/responsive.js'></script>
