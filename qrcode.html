@@ -26,8 +26,13 @@
     <!-- this line will appear only if the website is visited with an iPad -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=yes" />
 
-    <title>Celestino | only for creative minds.</title>
-
+    <title>Celestino | QR Code.</title>
+  <!--[if lte IE 8]>
+    <script>document.createElement('qrcode');</script>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="blog/qrcode/2.1.1/normalize.css">
+  <style>
     <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
     <!-- BOOTSTRAP STYLESHEET -->
@@ -860,7 +865,9 @@
 <script type='text/javascript' src='js/jquery.mobilemenu.js'></script>
 <script type='text/javascript' src='js/jquery/jquery.masonry.min.js'></script>
 <script type='text/javascript' src='js/jquery.custom.js'></script>
-
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+<script src="blog/qrcode/js/qrcode.js"></script>
+<script src="blog/qrcode/angular-qrcode.js"></script>
 </body>
 <!-- END BODY -->
 </html>
