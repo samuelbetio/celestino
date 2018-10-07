@@ -1,4 +1,28 @@
-/* class: .btn-bamboo-plane-5,  color theme: Bamboo Plane */
+/* class: .btn-bamboo-plane-5,  color theme: Bamboo Plane 
+ * MIT License
+ * 
+ * Copyright (c) 2014-2018 Samuel Rapana Betio
+ * 
+ * lmas2969@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 .btn-bamboo-plane-5 { text-shadow: 0px -1px 0px #b3a966; color: #ffffff !important; background-color: #D1C784; background-image: -moz-linear-gradient(top, #efe5a2, #b3a966); background-image: -ms-linear-gradient(top, #efe5a2, #b3a966); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#efe5a2), to(#b3a966)); background-image: -webkit-linear-gradient(top, #efe5a2, #b3a966); background-image: -o-linear-gradient(top, #efe5a2, #b3a966); background-image: linear-gradient(top, #efe5a2, #b3a966); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#efe5a2', endColorstr='#b3a966', GradientType=0); border-color: #D1C784 #b3a966 #b3a966 #D1C784; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-bamboo-plane-5:hover, .btn-bamboo-plane-5:active, .btn-bamboo-plane-5.active, .btn-bamboo-plane-5.disabled, .btn-bamboo-plane-5[disabled] { background-color: #b3a966; }
 .btn-bamboo-plane-5:hover { color: #ffffff !important; text-shadow: 0px -1px 0px #958b48; }
