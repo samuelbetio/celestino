@@ -1,4 +1,28 @@
-/* class: .btn-amor-4,  color theme: Amor */
+/* class: .btn-amor-4,  color theme: Amor
+ * MIT License
+ * 
+ * Copyright (c) 2014-2018 Samuel Rapana Betio
+ * 
+ * lmas2969@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 .btn-amor-4 { text-shadow: 0px -1px 0px #5f1218; color: #ffffff !important; background-color: #7D3036; background-image: -moz-linear-gradient(top, #9b4e54, #5f1218); background-image: -ms-linear-gradient(top, #9b4e54, #5f1218); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#9b4e54), to(#5f1218)); background-image: -webkit-linear-gradient(top, #9b4e54, #5f1218); background-image: -o-linear-gradient(top, #9b4e54, #5f1218); background-image: linear-gradient(top, #9b4e54, #5f1218); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9b4e54', endColorstr='#5f1218', GradientType=0); border-color: #7D3036 #5f1218 #5f1218 #7D3036; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-amor-4:hover, .btn-amor-4:active, .btn-amor-4.active, .btn-amor-4.disabled, .btn-amor-4[disabled] { background-color: #5f1218; }
 .btn-amor-4:hover { color: #fff8fe !important; text-shadow: 0px -1px 0px #410000; }
