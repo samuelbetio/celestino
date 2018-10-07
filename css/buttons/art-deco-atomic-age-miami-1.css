@@ -1,28 +1,4 @@
-/* class: .btn-art-deco-atomic-age-miami-1,  color theme: Art Deco Atomic Age Miami
- * MIT License
- * 
- * Copyright (c) 2014-2018 Samuel Rapana Betio
- * 
- * lmas2969@gmail.com
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
+/* class: .btn-art-deco-atomic-age-miami-1,  color theme: Art Deco Atomic Age Miami */
 .btn-art-deco-atomic-age-miami-1 { text-shadow: 0px -1px 0px #959d5f; color: #ffffff !important; background-color: #B3BB7D; background-image: -moz-linear-gradient(top, #d1d99b, #959d5f); background-image: -ms-linear-gradient(top, #d1d99b, #959d5f); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d1d99b), to(#959d5f)); background-image: -webkit-linear-gradient(top, #d1d99b, #959d5f); background-image: -o-linear-gradient(top, #d1d99b, #959d5f); background-image: linear-gradient(top, #d1d99b, #959d5f); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d1d99b', endColorstr='#959d5f', GradientType=0); border-color: #B3BB7D #959d5f #959d5f #B3BB7D; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-art-deco-atomic-age-miami-1:hover, .btn-art-deco-atomic-age-miami-1:active, .btn-art-deco-atomic-age-miami-1.active, .btn-art-deco-atomic-age-miami-1.disabled, .btn-art-deco-atomic-age-miami-1[disabled] { background-color: #959d5f; }
 .btn-art-deco-atomic-age-miami-1:hover { color: #ffffff !important; text-shadow: 0px -1px 0px #777f41; }
