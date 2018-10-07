@@ -1,4 +1,28 @@
-/* class: .btn-acid-grey-5,  color theme: acid grey */
+/* class: .btn-acid-grey-5,  color theme: acid grey
+ * MIT License
+ * 
+ * Copyright (c) 2014-2018 Samuel Rapana Betio
+ * 
+ * lmas2969@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 .btn-acid-grey-5 { text-shadow: 0px 1px 0px #ffff3c; color: #af9f00 !important; background-color: #FFEF00; background-image: -moz-linear-gradient(top, #ffff1e, #e1d100); background-image: -ms-linear-gradient(top, #ffff1e, #e1d100); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffff1e), to(#e1d100)); background-image: -webkit-linear-gradient(top, #ffff1e, #e1d100); background-image: -o-linear-gradient(top, #ffff1e, #e1d100); background-image: linear-gradient(top, #ffff1e, #e1d100); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffff1e', endColorstr='#e1d100', GradientType=0); border-color: #FFEF00 #e1d100 #e1d100 #FFEF00; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-acid-grey-5:hover, .btn-acid-grey-5:active, .btn-acid-grey-5.active, .btn-acid-grey-5.disabled, .btn-acid-grey-5[disabled] { background-color: #e1d100; }
 .btn-acid-grey-5:hover { color: #9b8b00 !important; text-shadow: 0px 1px 0px #ffff3c; }
