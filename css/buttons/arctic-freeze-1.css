@@ -1,4 +1,28 @@
-/* class: .btn-arctic-freeze-1,  color theme: arctic freeze */
+/* class: .btn-arctic-freeze-1,  color theme: arctic freeze
+ * MIT License
+ * 
+ * Copyright (c) 2014-2018 Samuel Rapana Betio
+ * 
+ * lmas2969@gmail.com
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
 .btn-arctic-freeze-1 { text-shadow: 0px 1px 0px #ffffff; color: #a2af82 !important; background-color: #F2FFD2; background-image: -moz-linear-gradient(top, #fffff0, #d4e1b4); background-image: -ms-linear-gradient(top, #fffff0, #d4e1b4); background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fffff0), to(#d4e1b4)); background-image: -webkit-linear-gradient(top, #fffff0, #d4e1b4); background-image: -o-linear-gradient(top, #fffff0, #d4e1b4); background-image: linear-gradient(top, #fffff0, #d4e1b4); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffff0', endColorstr='#d4e1b4', GradientType=0); border-color: #F2FFD2 #d4e1b4 #d4e1b4 #F2FFD2; border-color: rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.25); }
 .btn-arctic-freeze-1:hover, .btn-arctic-freeze-1:active, .btn-arctic-freeze-1.active, .btn-arctic-freeze-1.disabled, .btn-arctic-freeze-1[disabled] { background-color: #d4e1b4; }
 .btn-arctic-freeze-1:hover { color: #8e9b6e !important; text-shadow: 0px 1px 0px #ffffff; }
