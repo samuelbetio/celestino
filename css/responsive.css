@@ -1,28 +1,3 @@
-/**
- * MIT License
- * 
- * Copyright (c) 2014-2018 Samuel Rapana Betio
- * 
- * lmas2969@gmail.com
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
 #header .menu-select { display:none; }
 
 /* Large desktop */
@@ -129,7 +104,7 @@
     .slider.thumbnails .showcase-content img { width: 96.5% !important; padding:1.5%; }
     .boxed .slider.thumbnails .showcase-thumbnail-restriction { max-width:90%; }
     .slider.thumbnails .showcase-thumbnail-restriction { margin-left:22px; }
-    .slider.thumbnails .showcase-thumbnail { margin-right:14px !important; /* deve essere cosÃ¬ per il mobile, anche se su pc si vede male */ }
+    .slider.thumbnails .showcase-thumbnail { margin-right:14px !important; /* deve essere così per il mobile, anche se su pc si vede male */ }
     .slider.thumbnails .showcase-thumbnail-container { margin-top:0; }
     .slider.thumbnails .showcase-thumbnail-button-forward { right:0; }
     
@@ -161,6 +136,6 @@
 @media (max-width: 320px) { 
     #portfolio.slider li { width:260px; } 
     
-    .slider.thumbnails .showcase-thumbnail { margin-right:15px !important; /* deve essere cosÃ¬ per il mobile, anche se su pc si vede male */ }  
+    .slider.thumbnails .showcase-thumbnail { margin-right:15px !important; /* deve essere così per il mobile, anche se su pc si vede male */ }  
     .slider.thumbnails .showcase-thumbnail-button-backward, .slider.thumbnails .showcase-thumbnail-button-forward { width:18px; }
 }
