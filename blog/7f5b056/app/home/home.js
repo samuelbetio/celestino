@@ -1,6 +1,6 @@
 /***********************************************************
-* Developer: Samuel Rapana Betio (lmas2969@gmail.com)       *
-* Website: https://samuelbetio.github.io/dGitFile/          *
+* Developer: Samuel Betio (samuelbetio@gmail.com)       *
+* Website: https://github.com/samuelbetio/DownGit          *
 * License: MIT License                                     *
 ***********************************************************/
 
@@ -32,7 +32,7 @@ homeModule.config([
 					$scope.totalFiles={val: 0};
 					
 					var templateUrl = "github.com";
-					var downloadUrlPrefix = "https://samuelbetio.github.io/dGitFile/#/home?url=";
+					var downloadUrlPrefix = "https://samuelbetio.github.io/DownGit/#/home?url=";
 					
 					if($routeParams.url){
 						$scope.url=$routeParams.url;
