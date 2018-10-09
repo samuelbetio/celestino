@@ -1,0 +1,66 @@
+﻿/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% Free To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITs AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/* =============================================================
+   GENERAL STYLES FOR HELP DOCCUMENT 
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+   
+}
+.pad-top {
+    padding-top:50px;
+}
+.text-center {
+    text-align:center;
+}
+p {
+    padding:10px;
+    line-height:30px;
+}
+h3 {
+    text-align:center;
+    padding:40px 0px 40px 0px;
+}
+section {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+/*TO MAKING NAV BAR LINKS WHITE COLORED */
+.navbar-inverse .navbar-nav > li > a {
+color: #FFF;
+}
+
+.navbar-inverse .navbar-brand {
+color: #FFF;
+}
+ul li {
+    line-height:30px;
+}
+ /*=====================================
+  SCROLL UP STYLES 
+    ===================================*/
+
+a.scrollup {
+    background: #808080;
+height: 32px;
+width: 32px;
+color: #fff;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+text-decoration: none;
+position: fixed;
+bottom: 10px;
+right: 10px;
+z-index: 9999;
+opacity: 0.5;
+}
