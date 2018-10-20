@@ -1,8 +1,9 @@
+
 <!doctype html><html lang="en">
  <head>
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Referrer Policy</title>
+  <title>Celestino Policy</title>
 <style data-fill-with="stylesheet">/******************************************************************************
  *                   Style sheet for the W3C specifications                   *
  *
@@ -127,7 +128,7 @@
 		border-width: .65rem .7rem .6rem;
 		border-radius: .4rem;
 		background: #1a5e9a;
-		color: #07C037;
+		color: white;
 		font-weight: bold;
 	}
 
@@ -1424,7 +1425,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
  <body class="h-entry">
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
-   <h1>Referrer Policy</h1>
+   <h1>Celestino Policy</h1>
    <h2 class="no-num no-toc no-ref heading settled" id="subtitle"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2017-11-05">5 November 2017</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
@@ -1435,9 +1436,9 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
      <dt>Version History:
      <dd><a href="https://github.com/w3c/webappsec-referrer-policy/commits/master/index.src.html">https://github.com/w3c/webappsec-referrer-policy/commits/master/index.src.html</a>
      <dt>Feedback:
-     <dd><span><a href="mailto:public-webappsec@w3.org?subject=%5Breferrer-policy%5D%20YOUR%20TOPIC%20HERE">public-webappsec@w3.org</a> with subject line “<kbd>[referrer-policy] <i data-lt="">… message topic …</i></kbd>” (<a href="https://lists.w3.org/Archives/Public/public-webappsec/" rel="discussion">archives</a>)</span>
+     <dd><span><a href="mailto:lmas2969@gmail.com?subject=%5Breferrer-policy%5D%20YOUR%20TOPIC%20HERE">lmas2969@gmail.com</a> with subject line “<kbd>[referrer-policy] <i data-lt="">… message topic …</i></kbd>” (<a href="https://lists.w3.org/Archives/Public/public-webappsec/" rel="discussion">archives</a>)</span>
      <dt>Issue Tracking:
-     <dd><a href="https://github.com/w3c/webappsec-referrer-policy/issues/">GitHub</a>
+     <dd><a href="https://github.com/samuelbetio/celestino/issues">GitHub</a>
      <dd><a href="#issues-index">Inline In Spec</a>
      <dt class="editor">Editors:
      <dd class="editor p-author h-card vcard" data-editor-id="49402"><a class="p-name fn u-email email" href="mailto:eisinger@google.com">Jochen Eisinger</a> (<span class="p-org org">Google Inc.</span>)
@@ -1452,7 +1453,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>This document describes how an author can set a referrer policy for documents they create, and the impact of such a policy on the <code>Referer</code> HTTP header for outgoing requests and navigations.</p>
+   <p>This document describes how an author can set a Celestino Policy for documents they create, and the impact of such a policy on the <code>Referer</code> HTTP header for outgoing requests and navigations.</p>
   </div>
   <h2 class="no-num no-toc no-ref heading settled" id="status"><span class="content">Status of this document</span></h2>
   <div data-fill-with="status">
@@ -1461,7 +1462,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
 	Its publication here does not imply endorsement of its contents by W3C.
 	Don’t cite this document other than as work in progress. </p>
    <p> <strong>Changes to this document may be tracked at <a href="https://github.com/w3c/webappsec">https://github.com/w3c/webappsec</a>.</strong> </p>
-   <p> The (<a href="https://lists.w3.org/Archives/Public/public-webappsec/">archived</a>) public mailing list <a href="mailto:public-webappsec@w3.org?Subject=%5Breferrer-policy%5D%20PUT%20SUBJECT%20HERE">public-webappsec@w3.org</a> (see <a href="https://www.w3.org/Mail/Request">instructions</a>)
+   <p> The (<a href="https://lists.w3.org/Archives/Public/public-webappsec/">archived</a>) public mailing list <a href="mailto:lmas2969@gmail.com?Subject=%5Breferrer-policy%5D%20PUT%20SUBJECT%20HERE">lmas2969@gmail.com</a> (see <a href="https://www.w3.org/Mail/Request">instructions</a>)
 	is preferred for discussion of this specification.
 	When sending e-mail,
 	please put the text “referrer-policy” in the subject,
@@ -1502,7 +1503,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
       <li><a href="#referrer-policy-empty-string"><span class="secno">3.9</span> <span class="content">The empty string</span></a>
      </ol>
     <li>
-     <a href="#referrer-policy-delivery"><span class="secno">4</span> <span class="content">Referrer Policy Delivery</span></a>
+     <a href="#referrer-policy-delivery"><span class="secno">4</span> <span class="content">Celestino Policy Delivery</span></a>
      <ol class="toc">
       <li>
        <a href="#referrer-policy-header"><span class="secno">4.1</span> <span class="content">Delivery via Referrer-Policy header</span></a>
@@ -1520,8 +1521,8 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
     <li>
      <a href="#algorithms"><span class="secno">8</span> <span class="content">Algorithms</span></a>
      <ol class="toc">
-      <li><a href="#parse-referrer-policy-from-header"><span class="secno">8.1</span> <span class="content"> Parse a referrer policy from a <span><code>Referrer-Policy</code></span> header </span></a>
-      <li><a href="#set-requests-referrer-policy-on-redirect"><span class="secno">8.2</span> <span class="content"> Set <var>request</var>’s referrer policy on redirect </span></a>
+      <li><a href="#parse-referrer-policy-from-header"><span class="secno">8.1</span> <span class="content"> Parse a Celestino Policy from a <span><code>Referrer-Policy</code></span> header </span></a>
+      <li><a href="#set-requests-referrer-policy-on-redirect"><span class="secno">8.2</span> <span class="content"> Set <var>request</var>’s Celestino Policy on redirect </span></a>
       <li><a href="#determine-requests-referrer"><span class="secno">8.3</span> <span class="content"> Determine <var>request</var>’s Referrer </span></a>
       <li><a href="#strip-url"><span class="secno">8.4</span> <span class="content"> Strip <var>url</var> for use as a referrer </span></a>
      </ol>
@@ -1598,12 +1599,12 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
    <section>
     <h2 class="heading settled" data-level="2" id="terms"><span class="secno">2. </span><span class="content">Key Concepts and Terminology</span><a class="self-link" href="#terms"></a></h2>
     <dl>
-     <dt> <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy">referrer policy</a> 
+     <dt> <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy">Celestino Policy</a> 
      <dd>
-       A <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①">referrer policy</a> modifies the algorithm used to populate the <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc7231#section-5.5.2" id="ref-for-section-5.5.2②"><code>Referer</code></a> header when <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-fetch" id="ref-for-concept-fetch">fetching</a> subresources,
+       A <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①">Celestino Policy</a> modifies the algorithm used to populate the <a data-link-type="dfn" href="https://tools.ietf.org/html/rfc7231#section-5.5.2" id="ref-for-section-5.5.2②"><code>Referer</code></a> header when <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-fetch" id="ref-for-concept-fetch">fetching</a> subresources,
       prefetching, or performing navigations. This document defines the various
-      behaviors for each <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy②">referrer policy</a>. 
-      <p>Every <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object">environment settings object</a> has an algorithm for obtaining a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy③">referrer policy</a>, which is used by default for all <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request">requests</a> with that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object①">environment settings object</a> as their <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client">client</a>.</p>
+      behaviors for each <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy②">Celestino Policy</a>. 
+      <p>Every <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object">environment settings object</a> has an algorithm for obtaining a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy③">Celestino Policy</a>, which is used by default for all <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request">requests</a> with that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object①">environment settings object</a> as their <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client">client</a>.</p>
      <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport="" id="same-origin-request">same-origin request</dfn>
      <dd> A <code class="idl"><a data-link-type="idl" href="https://fetch.spec.whatwg.org/#request" id="ref-for-request">Request</a></code> <var>request</var> is a <strong>same-origin request</strong> if <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-origin" id="ref-for-concept-request-origin">origin</a> and the <a data-link-type="dfn" href="https://url.spec.whatwg.org/#concept-url-origin" id="ref-for-concept-url-origin">origin</a> of <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-current-url" id="ref-for-concept-request-current-url">current url</a> are <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/origin.html#same-origin" id="ref-for-same-origin">the same</a>. 
      <dt><dfn class="dfn-paneled" data-dfn-type="dfn" data-noexport="" id="cross-origin-request">cross-origin request</dfn>
@@ -1612,7 +1613,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
    </section>
    <section>
     <h2 class="heading settled" data-level="3" id="referrer-policies"><span class="secno">3. </span><span class="content">Referrer Policies</span><span id="referrer-policy-states"></span><a class="self-link" href="#referrer-policies"></a></h2>
-    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export="" id="referrer-policy">referrer policy</dfn> is the empty string, "<code>no-referrer</code>",
+    <p>A <dfn class="dfn-paneled" data-dfn-type="dfn" data-export="" id="referrer-policy">Celestino Policy</dfn> is the empty string, "<code>no-referrer</code>",
   "<code>no-referrer-when-downgrade</code>", "<code>same-origin</code>",
   "<code>origin</code>", "<code>strict-origin</code>",
   "<code>origin-when-cross-origin</code>",
@@ -1630,9 +1631,9 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
   <dfn class="s idl-code" data-dfn-for="ReferrerPolicy" data-dfn-type="enum-value" data-export="" data-lt="&quot;unsafe-url&quot;|unsafe-url" id="dom-referrerpolicy-unsafe-url"><code>"unsafe-url"</code><a class="self-link" href="#dom-referrerpolicy-unsafe-url"></a></dfn>
 };
 </pre>
-    <p>Each possible <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy④">referrer policy</a> is explained below. A detailed
+    <p>Each possible <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy④">Celestino Policy</a> is explained below. A detailed
   algorithm for evaluating their effect is given in the <a href="#integration-with-fetch">§5 Integration with Fetch</a> and <a href="#algorithms">§8 Algorithms</a> sections.</p>
-    <p class="note" role="note"><span>Note:</span> The referrer policy for an <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object②">environment settings object</a> provides a
+    <p class="note" role="note"><span>Note:</span> The Celestino Policy for an <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object②">environment settings object</a> provides a
   default baseline policy for requests when that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object③">environment settings
   object</a> is used as a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client①">request client</a>. This policy may be tightened
   for specific requests via mechanisms like the <code><a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/semantics.html#link-type-noreferrer" id="ref-for-link-type-noreferrer①">noreferrer</a></code> link type.</p>
@@ -1735,19 +1736,19 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
   Carefully consider the impact of setting such a policy for potentially
   sensitive documents.</p>
     <h3 class="heading settled" data-dfn-type="dfn" data-export="" data-level="3.9" data-lt="The empty string" id="referrer-policy-empty-string"><span class="secno">3.9. </span><span class="content">The empty string</span><a class="self-link" href="#referrer-policy-empty-string"></a></h3>
-    <p>The empty string "" corresponds to no <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑤">referrer policy</a>, causing a
-  fallback to a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑥">referrer policy</a> defined elsewhere, or in the case where
+    <p>The empty string "" corresponds to no <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑤">Celestino Policy</a>, causing a
+  fallback to a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑥">Celestino Policy</a> defined elsewhere, or in the case where
   no such higher-level policy is available, defaulting to <a data-link-type="dfn" href="#referrer-policy-no-referrer-when-downgrade" id="ref-for-referrer-policy-no-referrer-when-downgrade②">"<code>no-referrer-when-downgrade</code>"</a>. This defaulting happens in
   the <a href="#determine-requests-referrer" id="ref-for-determine-requests-referrer">§8.3 Determine request’s Referrer</a> algorithm.</p>
-    <div class="example" id="example-76174780"><a class="self-link" href="#example-76174780"></a> Given a HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element">a</a></code> element without any declared <code><a data-link-type="element-sub" href="https://html.spec.whatwg.org/multipage/semantics.html#attr-a-referrerpolicy" id="ref-for-attr-a-referrerpolicy">referrerpolicy</a></code> attribute, its referrer policy is the empty string. Thus, navigation
+    <div class="example" id="example-76174780"><a class="self-link" href="#example-76174780"></a> Given a HTML <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element">a</a></code> element without any declared <code><a data-link-type="element-sub" href="https://html.spec.whatwg.org/multipage/semantics.html#attr-a-referrerpolicy" id="ref-for-attr-a-referrerpolicy">referrerpolicy</a></code> attribute, its Celestino Policy is the empty string. Thus, navigation
     requests initiated by clicking on that <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element①">a</a></code> element will be sent
     with the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy">referrer
-    policy</a> of the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element②">a</a></code> element’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document">node document</a>. If that <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/dom.html#document" id="ref-for-document">Document</a></code> has the empty string as its referrer policy, the <a href="#determine-requests-referrer" id="ref-for-determine-requests-referrer①">§8.3 Determine request’s Referrer</a> algorithm will treat the empty
+    policy</a> of the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element" id="ref-for-the-a-element②">a</a></code> element’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document">node document</a>. If that <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/dom.html#document" id="ref-for-document">Document</a></code> has the empty string as its Celestino Policy, the <a href="#determine-requests-referrer" id="ref-for-determine-requests-referrer①">§8.3 Determine request’s Referrer</a> algorithm will treat the empty
     string the same as <a data-link-type="dfn" href="#referrer-policy-no-referrer-when-downgrade" id="ref-for-referrer-policy-no-referrer-when-downgrade③">"<code>no-referrer-when-downgrade</code>"</a>. </div>
    </section>
    <section>
-    <h2 class="heading settled" data-level="4" id="referrer-policy-delivery"><span class="secno">4. </span><span class="content">Referrer Policy Delivery</span><a class="self-link" href="#referrer-policy-delivery"></a></h2>
-    <p>A <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request①">request</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy">referrer policy</a> is delivered in one of five ways:</p>
+    <h2 class="heading settled" data-level="4" id="referrer-policy-delivery"><span class="secno">4. </span><span class="content">Celestino Policy Delivery</span><a class="self-link" href="#referrer-policy-delivery"></a></h2>
+    <p>A <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request①">request</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy">Celestino Policy</a> is delivered in one of five ways:</p>
     <ul>
      <li> Via the <code>Referrer-Policy</code> HTTP header (defined
       in <a href="#referrer-policy-header">§4.1 Delivery via Referrer-Policy header</a>). 
@@ -1758,7 +1759,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
     </ul>
     <h3 class="heading settled" data-level="4.1" id="referrer-policy-header"><span class="secno">4.1. </span><span class="content">Delivery via Referrer-Policy header</span><a class="self-link" href="#referrer-policy-header"></a></h3>
     <p>The <code><dfn class="dfn-paneled" data-dfn-type="dfn" data-local-lt="referrer-policy header" data-noexport="" id="referrer-policy-header-dfn">Referrer-Policy</dfn></code> HTTP header
-  specifies the referrer policy that the user agent applies when determining
+  specifies the Celestino Policy that the user agent applies when determining
   what referrer information should be included with requests made, and with <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context" id="ref-for-browsing-context">browsing contexts</a> created from the context of the protected
   resource.</p>
     <p>The syntax for the name and value of the header are described by the following
@@ -1797,7 +1798,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
      <h3 class="heading settled" data-level="4.3" id="referrer-policy-delivery-referrer-attribute"><span class="secno">4.3. </span><span class="content">Delivery
     via a <code>referrerpolicy</code> content attribute</span><a class="self-link" href="#referrer-policy-delivery-referrer-attribute"></a></h3>
      <p><em>This section is not normative.</em></p>
-     <p>The HTML Standard defines the concept of <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#referrer-policy-attribute" id="ref-for-referrer-policy-attribute">referrer policy
+     <p>The HTML Standard defines the concept of <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/infrastructure.html#referrer-policy-attribute" id="ref-for-referrer-policy-attribute">Celestino Policy
     attributes</a> which applies to several of its elements, for example:</p>
 <pre class="example" id="example-4214a796"><a class="self-link" href="#example-4214a796"></a><code class="lang-html highlight"><span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">"http://example.com"</span> <span class="na">referrerpolicy</span><span class="o">=</span><span class="s">"origin"</span><span class="p">></span>
 </code></pre>
@@ -1808,14 +1809,14 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
      <p>The HTML Standard and Fetch Standard define how nested browsing contexts
     that are not created from <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response">responses</a>, such as <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element" id="ref-for-the-iframe-element①">iframe</a></code> elements with
     their <code><a data-link-type="element-sub" href="https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-srcdoc" id="ref-for-attr-iframe-srcdoc">srcdoc</a></code> attribute set, or created from a blob URL, inherit
-    their <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑧">referrer policy</a> from the creator browsing context or blob URL.</p>
+    their <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑧">Celestino Policy</a> from the creator browsing context or blob URL.</p>
     </section>
    </section>
    <section class="informative">
     <h2 class="heading settled" data-level="5" id="integration-with-fetch"><span class="secno">5. </span><span class="content">Integration with Fetch</span><a class="self-link" href="#integration-with-fetch"></a></h2>
     <p><em>This section is not normative.</em></p>
-    <p>The Fetch specification calls out to <a href="#set-requests-referrer-policy-on-redirect" id="ref-for-set-requests-referrer-policy-on-redirect">§8.2 Set request’s referrer policy on redirect</a> before <a href="https://fetch.spec.whatwg.org/#http-redirect-fetch">Step
-  13 of the HTTP-redirect fetch</a>, so that a request’s referrer policy
+    <p>The Fetch specification calls out to <a href="#set-requests-referrer-policy-on-redirect" id="ref-for-set-requests-referrer-policy-on-redirect">§8.2 Set request’s Celestino Policy on redirect</a> before <a href="https://fetch.spec.whatwg.org/#http-redirect-fetch">Step
+  13 of the HTTP-redirect fetch</a>, so that a request’s Celestino Policy
   can be updated before following a redirect.</p>
     <p>The Fetch specification calls out to <a href="#determine-requests-referrer" id="ref-for-determine-requests-referrer②">§8.3 Determine request’s Referrer</a> as <a href="https://fetch.spec.whatwg.org/#main-fetch">Step 8 of the
   Main fetch algorithm</a>, and uses the result to set the <var>request</var>’s <code>referrer</code> property. Fetch is responsible for serializing the
@@ -1824,10 +1825,10 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
    <section class="informative">
     <h2 class="heading settled" data-level="6" id="integration-with-html"><span class="secno">6. </span><span class="content">Integration with HTML</span><a class="self-link" href="#integration-with-html"></a></h2>
     <p><em>This section is not normative.</em></p>
-    <p>The HTML Standard determines the <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑨">referrer policy</a> of any response
+    <p>The HTML Standard determines the <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy⑨">Celestino Policy</a> of any response
   received during <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/browsers.html#navigate" id="ref-for-navigate">navigation</a> or while <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/workers.html#run-a-worker" id="ref-for-run-a-worker">running a worker</a>, and uses
   the result to set the resulting <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/dom.html#document" id="ref-for-document①">Document</a></code> or <code class="idl"><a data-link-type="idl" href="https://html.spec.whatwg.org/multipage/workers.html#workerglobalscope" id="ref-for-workerglobalscope">WorkerGlobalScope</a></code>'s
-  referrer policy. This is later used by the corresponding <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object⑨">environment
+  Celestino Policy. This is later used by the corresponding <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object" id="ref-for-environment-settings-object⑨">environment
   settings object</a>, which serves as a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client①⑦">request client</a> for <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-fetch" id="ref-for-concept-fetch①">fetches</a> it initiates.</p>
     <p class="note" role="note"><span>Note:</span> W3C HTML5 does not define the <code>referrerpolicy</code> content
   attributes, or <code>referrerPolicy</code> IDL attributes, or the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer" id="ref-for-meta-referrer②"><code>referrer</code></a> keyword for <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/semantics.html#meta" id="ref-for-meta③">meta</a></code>, or the
@@ -1845,29 +1846,29 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
        If a <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#css-style-sheet" id="ref-for-css-style-sheet">CSS style sheet</a> is responsible for the request,
        and its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-location" id="ref-for-concept-css-style-sheet-location">location</a> is non-null,
        set the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer">referrer</a> to its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-location" id="ref-for-concept-css-style-sheet-location①">location</a>, and the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy①">referrer
-       policy</a> to its <a data-link-type="dfn" href="#cssstylesheet-referrer-policy" id="ref-for-cssstylesheet-referrer-policy">referrer policy</a>. 
+       policy</a> to its <a data-link-type="dfn" href="#cssstylesheet-referrer-policy" id="ref-for-cssstylesheet-referrer-policy">Celestino Policy</a>. 
       <p class="issue" id="issue-8299c74c"><a class="self-link" href="#issue-8299c74c"></a> This requires that CSS style sheets process `Referrer-Policy`
-       headers, and store a <dfn class="dfn-paneled" data-dfn-for="CSSStyleSheet" data-dfn-type="dfn" data-noexport="" id="cssstylesheet-referrer-policy">referrer policy</dfn> in the same way that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy①">Documents
+       headers, and store a <dfn class="dfn-paneled" data-dfn-for="CSSStyleSheet" data-dfn-type="dfn" data-noexport="" id="cssstylesheet-referrer-policy">Celestino Policy</dfn> in the same way that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy①">Documents
        do</a>.</p>
      <li> If a <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#css-style-sheet" id="ref-for-css-style-sheet①">CSS style sheet</a> with a null <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-location" id="ref-for-concept-css-style-sheet-location②">location</a> is responsible
-      for the request, set the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer①">referrer</a> to its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-owner-node" id="ref-for-concept-css-style-sheet-owner-node">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document①">node document</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-url" id="ref-for-concept-document-url">URL</a>, and the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy②">referrer policy</a> to its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-owner-node" id="ref-for-concept-css-style-sheet-owner-node①">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document②">node document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy②">referrer policy</a>. 
+      for the request, set the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer①">referrer</a> to its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-owner-node" id="ref-for-concept-css-style-sheet-owner-node">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document①">node document</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-url" id="ref-for-concept-document-url">URL</a>, and the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy②">Celestino Policy</a> to its <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#concept-css-style-sheet-owner-node" id="ref-for-concept-css-style-sheet-owner-node①">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document②">node document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy②">Celestino Policy</a>. 
      <li> Otherwise, a <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#css-declaration-block" id="ref-for-css-declaration-block">CSS declaration block</a> that was created by the
        embedder is responsible for the request - either from parsing of an
        element’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#the-style-attribute" id="ref-for-the-style-attribute">style attribute</a>, or to implement an <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/rendering.html#presentational-hints" id="ref-for-presentational-hints">presentational
        hint</a> for an element. We assume that in this case the <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#css-declaration-block" id="ref-for-css-declaration-block①">CSS
        declaration block</a>’s <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node">owner node</a> points to that element, and set the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer②">referrer</a> to the
        block’s <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node①">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document③">node
-       document</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-url" id="ref-for-concept-document-url①">URL</a>, and the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy③">referrer policy</a> to the block’s <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node②">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document④">node document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy③">referrer policy</a>. 
+       document</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-document-url" id="ref-for-concept-document-url①">URL</a>, and the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy③">Celestino Policy</a> to the block’s <a data-link-type="dfn" href="https://drafts.csswg.org/cssom-1/#cssstyledeclaration-owner-node" id="ref-for-cssstyledeclaration-owner-node②">owner node</a>’s <a data-link-type="dfn" href="https://dom.spec.whatwg.org/#concept-node-document" id="ref-for-concept-node-document④">node document</a>’s <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy" id="ref-for-concept-document-referrer-policy③">Celestino Policy</a>. 
     </ol>
-    <p class="note" role="note"><span>Note:</span> Both the value of the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request③">request</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer③">referrer</a> and <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy④">referrer policy</a> are set based on the values at the
-  time a given <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request④">request</a> is created. If a document’s referrer policy
+    <p class="note" role="note"><span>Note:</span> Both the value of the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request③">request</a>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer③">referrer</a> and <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy④">Celestino Policy</a> are set based on the values at the
+  time a given <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request④">request</a> is created. If a document’s Celestino Policy
   changes during its lifetime, the policy associated with inline stylesheet
   requests will also change.</p>
    </section>
    <section>
     <h2 class="heading settled" data-level="8" id="algorithms"><span class="secno">8. </span><span class="content">Algorithms</span><a class="self-link" href="#algorithms"></a></h2>
-    <h3 class="heading settled" data-level="8.1" id="parse-referrer-policy-from-header"><span class="secno">8.1. </span><span class="content"> Parse a referrer policy from a <a data-link-type="dfn" href="#referrer-policy-header-dfn" id="ref-for-referrer-policy-header-dfn"><code>Referrer-Policy</code></a> header </span><a class="self-link" href="#parse-referrer-policy-from-header"></a></h3>
-    <p>Given a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①">response</a> <var>response</var>, the following steps return a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①⓪">referrer policy</a> according to <var>response</var>’s
+    <h3 class="heading settled" data-level="8.1" id="parse-referrer-policy-from-header"><span class="secno">8.1. </span><span class="content"> Parse a Celestino Policy from a <a data-link-type="dfn" href="#referrer-policy-header-dfn" id="ref-for-referrer-policy-header-dfn"><code>Referrer-Policy</code></a> header </span><a class="self-link" href="#parse-referrer-policy-from-header"></a></h3>
+    <p>Given a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response①">response</a> <var>response</var>, the following steps return a <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①⓪">Celestino Policy</a> according to <var>response</var>’s
   `<code>Referrer-Policy</code>` header:</p>
     <ol>
      <li> Let <var>policy-tokens</var> be the result of <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#extract-header-list-values" id="ref-for-extract-header-list-values">extracting header list values</a> given
@@ -1881,20 +1882,20 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
 	  agents, as described in <a href="#unknown-policy-values">§11.1 Unknown Policy Values</a>.</p>
      <li> Return <var>policy</var>. 
     </ol>
-    <h3 class="heading settled dfn-paneled" data-dfn-type="dfn" data-export="" data-level="8.2" data-lt="Set request’s referrer policy on redirect" id="set-requests-referrer-policy-on-redirect"><span class="secno">8.2. </span><span class="content"> Set <var>request</var>’s referrer policy on redirect </span></h3>
+    <h3 class="heading settled dfn-paneled" data-dfn-type="dfn" data-export="" data-level="8.2" data-lt="Set request’s Celestino Policy on redirect" id="set-requests-referrer-policy-on-redirect"><span class="secno">8.2. </span><span class="content"> Set <var>request</var>’s Celestino Policy on redirect </span></h3>
     <p>Given a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request⑤">request</a> <var>request</var> and a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-response" id="ref-for-concept-response②">response</a> <var>actualResponse</var>,
-  this algorithm updates <var>request</var>’s associated <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑤">referrer policy</a> according to the Referrer-Policy header (if any) in <var>actualResponse</var>.</p>
+  this algorithm updates <var>request</var>’s associated <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑤">Celestino Policy</a> according to the Referrer-Policy header (if any) in <var>actualResponse</var>.</p>
     <ol>
-     <li> Let <var>policy</var> be the result of executing <a href="#parse-referrer-policy-from-header">§8.1 Parse a referrer policy from a Referrer-Policy header</a> on <var>actualResponse</var>. 
+     <li> Let <var>policy</var> be the result of executing <a href="#parse-referrer-policy-from-header">§8.1 Parse a Celestino Policy from a Referrer-Policy header</a> on <var>actualResponse</var>. 
      <li>If <var>policy</var> is not the empty string, then set <var>request</var>’s
-    associated referrer policy to <var>policy</var>.
+    associated Celestino Policy to <var>policy</var>.
     </ol>
     <h3 class="heading settled dfn-paneled" data-dfn-type="dfn" data-export="" data-level="8.3" data-lt="Determine request’s Referrer" id="determine-requests-referrer"><span class="secno">8.3. </span><span class="content"> Determine <var>request</var>’s Referrer </span></h3>
     <p>Given a <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request" id="ref-for-concept-request⑥">request</a> <var>request</var>, we can determine the correct
-  referrer information to send by examining the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑥">referrer policy</a> associated with it, as detailed in the following steps, which return
+  referrer information to send by examining the <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑥">Celestino Policy</a> associated with it, as detailed in the following steps, which return
   either <code>no referrer</code> or a URL:</p>
     <ol>
-     <li> Let <var>policy</var> be <var>request</var>’s associated <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑦">referrer policy</a>. 
+     <li> Let <var>policy</var> be <var>request</var>’s associated <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy" id="ref-for-concept-request-referrer-policy⑦">Celestino Policy</a>. 
      <li> Let <var>environment</var> be <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-client" id="ref-for-concept-request-client①⑧">client</a>. 
      <li>
        Switch on <var>request</var>’s <a data-link-type="dfn" href="https://fetch.spec.whatwg.org/#concept-request-referrer" id="ref-for-concept-request-referrer④">referrer</a>: 
@@ -1990,7 +1991,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
          <li>Return <var>referrerURL</var>. 
         </ol>
       </dl>
-      <p class="note" role="note"><span>Note:</span> Fetch will ensure <var>request</var>’s <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①②">referrer policy</a> is not the
+      <p class="note" role="note"><span>Note:</span> Fetch will ensure <var>request</var>’s <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①②">Celestino Policy</a> is not the
       empty string before calling this algorithm.</p>
     </ol>
     <h3 class="heading settled" data-level="8.4" id="strip-url"><span class="secno">8.4. </span><span class="content"> Strip <var>url</var> for use as a referrer </span><a class="self-link" href="#strip-url"></a></h3>
@@ -2025,7 +2026,7 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
   agents from offering options to users which would change the information
   sent out via a `<code>Referer</code>` header. For instance, user agents
   MAY allow users to suppress the referrer header entirely, regardless of the
-  active <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①③">referrer policy</a> on a page.</p>
+  active <a data-link-type="dfn" href="#referrer-policy" id="ref-for-referrer-policy①③">Celestino Policy</a> on a page.</p>
    </section>
    <section>
     <h2 class="heading settled" data-level="10" id="security"><span class="secno">10. </span><span class="content">Security Considerations</span><a class="self-link" href="#security"></a></h2>
@@ -2048,9 +2049,9 @@ pre.highlight, pre > code.highlight { display: block; padding: 1em; margin: .5em
    <section>
     <h2 class="heading settled" data-level="11" id="authoring"><span class="secno">11. </span><span class="content">Authoring Considerations</span><a class="self-link" href="#authoring"></a></h2>
     <h3 class="heading settled" data-level="11.1" id="unknown-policy-values"><span class="secno">11.1. </span><span class="content">Unknown Policy Values</span><a class="self-link" href="#unknown-policy-values"></a></h3>
-    <p>As described in <a href="#parse-referrer-policy-from-header">§8.1 Parse a referrer policy from a Referrer-Policy header</a> and in the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/semantics.html#meta" id="ref-for-meta④">meta</a></code> <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer" id="ref-for-meta-referrer③"><code>referrer</code></a> algorithm, unknown
+    <p>As described in <a href="#parse-referrer-policy-from-header">§8.1 Parse a Celestino Policy from a Referrer-Policy header</a> and in the <code><a data-link-type="element" href="https://html.spec.whatwg.org/multipage/semantics.html#meta" id="ref-for-meta④">meta</a></code> <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer" id="ref-for-meta-referrer③"><code>referrer</code></a> algorithm, unknown
   policy values will be ignored, and when multiple sources specify a
-  referrer policy, the value of the latest one will be used. This makes
+  Celestino Policy, the value of the latest one will be used. This makes
   it possible to deploy new policy values.</p>
     <div class="example" id="example-e42fe91b"><a class="self-link" href="#example-e42fe91b"></a> Suppose older user agents don’t understand
     the <a data-link-type="dfn" href="#referrer-policy-unsafe-url" id="ref-for-referrer-policy-unsafe-url⑤">"<code>unsafe-url</code>"</a> policy. A site can specify
@@ -2147,7 +2148,7 @@ Referrer-Policy: unsafe-url
    <li><a href="#grammardef-policy-token">policy-token</a><span>, in §4.1</span>
    <li><a href="#enumdef-referrerpolicy">ReferrerPolicy</a><span>, in §3</span>
    <li>
-    referrer policy
+    Celestino Policy
     <ul>
      <li><a href="#referrer-policy">definition of</a><span>, in §3</span>
      <li><a href="#cssstylesheet-referrer-policy">dfn for CSSStyleSheet</a><span>, in §7</span>
@@ -2162,7 +2163,7 @@ Referrer-Policy: unsafe-url
     </ul>
    <li><a href="#dom-referrerpolicy-same-origin">same-origin</a><span>, in §3</span>
    <li><a href="#same-origin-request">same-origin request</a><span>, in §2</span>
-   <li><a href="#set-requests-referrer-policy-on-redirect">Set request’s referrer policy on redirect</a><span>, in §8.1</span>
+   <li><a href="#set-requests-referrer-policy-on-redirect">Set request’s Celestino Policy on redirect</a><span>, in §8.1</span>
    <li><a href="#dom-referrerpolicy-strict-origin">strict-origin</a><span>, in §3</span>
    <li>
     "strict-origin"
@@ -2216,7 +2217,7 @@ Referrer-Policy: unsafe-url
      <li><a href="https://fetch.spec.whatwg.org/#local-scheme">local scheme</a>
      <li><a href="https://fetch.spec.whatwg.org/#concept-request-origin">origin</a>
      <li><a href="https://fetch.spec.whatwg.org/#concept-request-referrer">referrer</a>
-     <li><a href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy">referrer policy</a>
+     <li><a href="https://fetch.spec.whatwg.org/#concept-request-referrer-policy">Celestino Policy</a>
      <li><a href="https://fetch.spec.whatwg.org/#concept-request">request</a>
      <li><a href="https://fetch.spec.whatwg.org/#concept-response">response</a>
     </ul>
@@ -2235,7 +2236,7 @@ Referrer-Policy: unsafe-url
      <li><a href="https://html.spec.whatwg.org/multipage/browsers.html#concept-document-bc">browsing context <small>(for Document)</small></a>
      <li><a href="https://html.spec.whatwg.org/multipage/browsers.html#browsing-context-container">browsing context container</a>
      <li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-environment-creation-url">creation url</a>
-     <li><a href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">document referrer policy</a>
+     <li><a href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">document Celestino Policy</a>
      <li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#environment-settings-object">environment settings object</a>
      <li><a href="https://html.spec.whatwg.org/multipage/infrastructure.html#concept-url-fragment">fragment</a>
      <li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-global">global object</a>
@@ -2251,8 +2252,8 @@ Referrer-Policy: unsafe-url
      <li><a href="https://html.spec.whatwg.org/multipage/webappapis.html#concept-settings-object-origin">origin <small>(for environment settings object)</small></a>
      <li><a href="https://html.spec.whatwg.org/multipage/rendering.html#presentational-hints">presentational hints</a>
      <li><a href="https://html.spec.whatwg.org/multipage/semantics.html#meta-referrer">referrer</a>
-     <li><a href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">referrer policy</a>
-     <li><a href="https://html.spec.whatwg.org/multipage/infrastructure.html#referrer-policy-attribute">referrer policy attribute</a>
+     <li><a href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">Celestino Policy</a>
+     <li><a href="https://html.spec.whatwg.org/multipage/infrastructure.html#referrer-policy-attribute">Celestino Policy attribute</a>
      <li><a href="https://html.spec.whatwg.org/multipage/semantics.html#attr-a-referrerpolicy">referrerpolicy</a>
      <li><a href="https://html.spec.whatwg.org/multipage/workers.html#run-a-worker">running a worker</a>
      <li><a href="https://html.spec.whatwg.org/multipage/origin.html#same-origin">same origin</a>
@@ -2339,7 +2340,7 @@ Referrer-Policy: unsafe-url
   <h2 class="no-num no-ref heading settled" id="issues-index"><span class="content">Issues Index</span><a class="self-link" href="#issues-index"></a></h2>
   <div style="counter-reset:issue">
    <div class="issue"> This requires that CSS style sheets process `Referrer-Policy`
-       headers, and store a <span>referrer policy</span> in the same way that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">Documents
+       headers, and store a <span>Celestino Policy</span> in the same way that <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/dom.html#concept-document-referrer-policy">Documents
        do</a>.<a href="#issue-8299c74c"> ↵ </a></div>
   </div>
   <aside class="dfn-panel" data-for="same-origin-request">
@@ -2377,7 +2378,7 @@ Referrer-Policy: unsafe-url
     <li><a href="#ref-for-referrer-policy⑧">4.4. Nested browsing contexts</a>
     <li><a href="#ref-for-referrer-policy⑨">6. Integration with HTML</a>
     <li><a href="#ref-for-referrer-policy①⓪">8.1. 
-    Parse a referrer policy from a Referrer-Policy header </a> <a href="#ref-for-referrer-policy①①">(2)</a>
+    Parse a Celestino Policy from a Referrer-Policy header </a> <a href="#ref-for-referrer-policy①①">(2)</a>
     <li><a href="#ref-for-referrer-policy①②">8.3. 
     Determine request’s Referrer </a>
     <li><a href="#ref-for-referrer-policy①③">9.1. User Controls</a>
@@ -2468,7 +2469,7 @@ Referrer-Policy: unsafe-url
    <b><a href="#referrer-policy-header-dfn">#referrer-policy-header-dfn</a></b><b>Referenced in:</b>
    <ul>
     <li><a href="#ref-for-referrer-policy-header-dfn">8.1. 
-    Parse a referrer policy from a Referrer-Policy header </a>
+    Parse a Celestino Policy from a Referrer-Policy header </a>
    </ul>
   </aside>
   <aside class="dfn-panel" data-for="grammardef-policy-token">
