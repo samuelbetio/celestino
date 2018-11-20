@@ -4,7 +4,7 @@
  * 
  * @package WordPress
  * @subpackage Your Inspiration Themes
- * @author Your Inspiration Themes Team <info@yithemes.com>
+ * @author Your Inspiration Themes Team <samuelbetio@gmail.com>
  *
  * This source file is subject to the GNU GENERAL PUBLIC LICENSE (GPL 3.0)
  * that is bundled with this package in the file LICENSE.txt.
