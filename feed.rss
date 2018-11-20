@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+    <title>Latest news on Notepad++</title>
+    <link>https://notepad-plus-plus.org/feed.rss</link>
+    <description>Notepad++ is a free (as in "free speech" and also as in "free beer") source code editor and Notepad replacement that supports several languages. Running in the MS Windows environment, its use is governed by GPL License</description>
+    <language>en</language>
+    <ttl>120</ttl>
+    <atom:link href="https://notepad-plus-plus.org/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+    <title>v7.5.8 - Current Version</title>
+    <link>https://notepad-plus-plus.org/download/v7.5.8.html</link>
+    <description><![CDATA[<p><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type&#8230;]]></description>
+    <pubDate>Tue, 24 Jul 2018 00:13:23 +0200</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/download/v7.5.8.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>Notepad++ 7.5.8 released</title>
+    <link>https://notepad-plus-plus.org/news/notepad-7.5.8-released.html</link>
+    <description><![CDATA[<p>Some important fixed-bugs are included in 7.5.8 release, please check the change log in the downl&#8230;]]></description>
+    <pubDate>Tue, 24 Jul 2018 00:12:10 +0200</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/news/notepad-7.5.8-released.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>Notepad++ 7.5.7 released</title>
+    <link>https://notepad-plus-plus.org/news/notepad-7.5.7-released.html</link>
+    <description><![CDATA[<ul>
+<li>A lot of bug fixings, and more...</li>
+</ul>]]></description>
+    <pubDate>Sat, 30 Jun 2018 17:57:00 +0200</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/news/notepad-7.5.7-released.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>v7.5.7</title>
+    <link>https://notepad-plus-plus.org/download/v7.5.7.html</link>
+    <description><![CDATA[<p><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type&#8230;]]></description>
+    <pubDate>Sat, 30 Jun 2018 17:40:00 +0200</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/download/v7.5.7.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>Notepad++ 7.5.6 : a message from outer space</title>
+    <link>https://notepad-plus-plus.org/news/notepad-7.5.6-released.html</link>
+    <description><![CDATA[Help us to relay a message from outer space.]]></description>
+    <pubDate>Mon, 19 Mar 2018 01:10:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/news/notepad-7.5.6-released.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>v7.5.6</title>
+    <link>https://notepad-plus-plus.org/download/v7.5.6.html</link>
+    <description><![CDATA[<p><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type&#8230;]]></description>
+    <pubDate>Mon, 19 Mar 2018 01:08:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/download/v7.5.6.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>v7.5.5</title>
+    <link>https://notepad-plus-plus.org/download/v7.5.5.html</link>
+    <description><![CDATA[<p><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type&#8230;]]></description>
+    <pubDate>Tue, 27 Feb 2018 22:55:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/download/v7.5.5.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>Notepad++ 7.5.5 released</title>
+    <link>https://notepad-plus-plus.org/news/notepad-7.5.5-released.html</link>
+    <description><![CDATA[<ul>
+<li>Adding back 2 buttons "&lt;&lt; Find Previous" & "Find Next &gt;&gt;" in Find dialog.</li>
+<li>Fix the monitored files (tail -f) not always updated issue.</li>
+<li>And more...</li>
+</ul>]]></description>
+    <pubDate>Tue, 27 Feb 2018 22:53:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/news/notepad-7.5.5-released.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>v7.5.4</title>
+    <link>https://notepad-plus-plus.org/download/v7.5.4.html</link>
+    <description><![CDATA[<p><!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type&#8230;]]></description>
+    <pubDate>Mon, 01 Jan 2018 02:52:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/download/v7.5.4.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+<item>
+    <title>Notepad++ 7.5.4 released</title>
+    <link>https://notepad-plus-plus.org/news/notepad-7.5.4-released.html</link>
+    <description><![CDATA[<ul>
+<li>Fix the Access Violation crash issue.</li>
+<li>Fix encoding broken regression.</li>
+<li>And more...</li>
+</ul>]]></description>
+    <pubDate>Mon, 01 Jan 2018 02:51:00 +0100</pubDate>
+    <guid isPermaLink="false">https://notepad-plus-plus.org/news/notepad-7.5.4-released.html</guid>
+    <dc:creator>Don Ho</dc:creator>
+</item>
+</channel>
+</rss>
