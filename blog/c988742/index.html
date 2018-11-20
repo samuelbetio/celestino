@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Demo: Dynamic Search dengan Javascript</title>
+
+<style type="text/css">
+table.demo {
+background-color:#F2F2F5;
+border-width:1px 1px 0px 1px;
+border-color:#C9CBD3;
+border-style:solid;
+}
+table.demo td {
+color:#000000;
+font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif;
+font-size:9pt;
+background-color:#EAEFF5;
+padding:8px;
+background-color:#F2F2F5;
+border-color:#ffffff #ffffff #cccccc #ffffff;
+border-style:solid solid solid solid;
+border-width:1px 0px 1px 0px;
+}
+table.demo th {
+font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif;
+font-size:9pt;
+padding:8px;
+background-color:#CFE0F1;
+border-color:#ffffff #ffffff #cccccc #ffffff;
+border-style:solid solid solid none;
+border-width:1px 0px 1px 0px;
+white-space:nowrap;
+}
+</style>
+
+<script type="text/javascript">
+window.apex_search = {};
+apex_search.init = function (){
+	this.rows = document.getElementById('data').getElementsByTagName('TR');
+	this.rows_length = apex_search.rows.length;
+	this.rows_text =  [];
+	for (var i=0;i<apex_search.rows_length;i++){
+        this.rows_text[i] = (apex_search.rows[i].innerText)?apex_search.rows[i].innerText.toUpperCase():apex_search.rows[i].textContent.toUpperCase();
+	}
+	this.time = false;
+}
+
+apex_search.lsearch = function(){
+	this.term = document.getElementById('S').value.toUpperCase();
+	for(var i=0,row;row = this.rows[i],row_text = this.rows_text[i];i++){
+		row.style.display = ((row_text.indexOf(this.term) != -1) || this.term  === '')?'':'none';
+	}
+	this.time = false;
+}
+
+apex_search.search = function(e){
+    var keycode;
+    if(window.event){keycode = window.event.keyCode;}
+    else if (e){keycode = e.which;}
+    else {return false;}
+
+    if(keycode == 13) { apex_search.lsearch(); } else { return false; }
+}
+</script>
+
+</head>
+
+<body onload="apex_search.init();">
+<p>
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+	<td>
+		<input type="text" size="30" maxlength="1000" value="" id="S" onkeyup="apex_search.search(event);" />
+		<input type="button" value="Search" onclick="apex_search.lsearch();"/> 
+	</td>
+</tr>
+</tbody>
+</table>
+</p>
+
+<p>
+<table border="0" cellpadding="0" cellspacing="0" class="demo">
+<tr>	
+	<th>NAMA</th>
+	<th>GENDER</th>
+	<th>KOTA</th>
+	<th>STATUS</th>
+</tr>
+<tbody id="data">
+<tr>
+	<td>BUDI GUNAWAN</td>
+	<td>PRIA</td>
+	<td>JAKARTA</td>
+	<td>MENIKAH</td>
+</tr>
+<tr>
+	<td>ABRAHAM SAMAD</td>
+	<td>PRIA</td>
+	<td>JAKARTA</td>
+	<td>MENIKAH</td>
+</tr>
+<tr>
+	<td>JOKOWI</td>
+	<td>PRIA</td>
+	<td>SOLO</td>
+	<td>MENIKAH</td>
+</tr>
+<tr>
+	<td>ARIEL</td>
+	<td>PRIA</td>
+	<td>BANDUNG</td>
+	<td>DUDA</td>
+</tr>
+<tr>
+	<td>CITA CITATA</td>
+	<td>WANITA</td>
+	<td>JAKARTA</td>
+	<td>JANDA</td>
+</tr>
+<tr>
+	<td>DEDDY CORBUZIER</td>
+	<td>PRIA</td>
+	<td>JAKARTA</td>
+	<td>DUDA</td>
+</tr>
+<tr>
+	<td>VALENTINO ROSSI</td>
+	<td>PRIA</td>
+	<td>ITALIA</td>
+	<td>SINGLE</td>
+</tr>
+<tr>
+	<td>JASON STATHAM</td>
+	<td>PRIA</td>
+	<td>NEW YORK</td>
+	<td>SINGLE</td>
+</tr>
+</tbody>
+</table>
+</p>
+</body>
+</html>
