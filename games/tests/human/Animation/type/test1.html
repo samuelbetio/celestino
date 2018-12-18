@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+        <script src="../../../../jquery.gamequery.js"></script>
+        <script>
+            $(function(){
+                var simpleVerticalAnimation = new $.gameQuery.Animation({imageURL: "sv.png", type: $.gameQuery.ANIMATION_VERTICAL, numberOfFrame: 4, delta: 32, rate: 300});
+                var simpleHorizontalAnimation = new $.gameQuery.Animation({imageURL: "sh.png", type: $.gameQuery.ANIMATION_HORIZONTAL, numberOfFrame: 4, delta: 32, rate: 300});
+                
+                var multiVerticalAnimation = new $.gameQuery.Animation({imageURL: "mv.png", type: $.gameQuery.ANIMATION_VERTICAL | $.gameQuery.ANIMATION_MULTI, numberOfFrame: 4, delta: 32, rate: 300, distance: 32});
+                var multiHorizontalAnimation = new $.gameQuery.Animation({imageURL: "mh.png", type: $.gameQuery.ANIMATION_HORIZONTAL | $.gameQuery.ANIMATION_MULTI, numberOfFrame: 4, delta: 32, rate: 300, distance: 32});
+                
+                var simpleOffsetVerticalAnimation = new $.gameQuery.Animation({imageURL: "sov.png", type: $.gameQuery.ANIMATION_VERTICAL, offsetx: 100, offsety: 100, numberOfFrame: 4, delta: 32, rate: 300});
+                var simpleOffsetHorizontalAnimation = new $.gameQuery.Animation({imageURL: "soh.png", type: $.gameQuery.ANIMATION_HORIZONTAL, offsetx: 100, offsety: 100, numberOfFrame: 4, delta: 32, rate: 300});
+                
+                var multiOffsetVerticalAnimation = new $.gameQuery.Animation({imageURL: "mov.png", type: $.gameQuery.ANIMATION_VERTICAL | $.gameQuery.ANIMATION_MULTI, offsetx: 100, offsety: 100, numberOfFrame: 4, delta: 32, rate: 300, distance: 32});
+                var multiOffsetHorizontalAnimation = new $.gameQuery.Animation({imageURL: "moh.png", type: $.gameQuery.ANIMATION_HORIZONTAL | $.gameQuery.ANIMATION_MULTI, offsetx: 100, offsety: 100, numberOfFrame: 4, delta: 32, rate: 300, distance: 32});
+                
+                var pingpongAnimation = new $.gameQuery.Animation({imageURL: "rebound.png", type: $.gameQuery.ANIMATION_HORIZONTAL |  $.gameQuery.ANIMATION_PINGPONG, numberOfFrame: 9, delta: 64, rate: 60});
+                var multiPingpongAnimation = new $.gameQuery.Animation({imageURL: "reboundm.png", type: $.gameQuery.ANIMATION_HORIZONTAL |  $.gameQuery.ANIMATION_PINGPONG | $.gameQuery.ANIMATION_MULTI, numberOfFrame: 9, delta: 64, rate: 60, distance: 64});
+                
+                var callbackAnim =  new $.gameQuery.Animation({imageURL: "sv.png", type: $.gameQuery.ANIMATION_VERTICAL | $.gameQuery.ANIMATION_ONCE | $.gameQuery.ANIMATION_CALLBACK, numberOfFrame: 4, delta: 32, rate: 300});
+                var counter = 0;
+                $("#playground").playground({height: 64, width: 500});
+                
+                $.playground()
+                    .addSprite("simpleVertical",{animation: simpleVerticalAnimation, posx: 0})
+                    .addSprite("simpleHorizontal",{animation: simpleHorizontalAnimation, posx: 34})
+                    .addSprite("multiVertical",{animation: multiVerticalAnimation, posx: 75})
+                    .addSprite("multiHorizontal",{animation: multiHorizontalAnimation, posx: 109})
+                    .addSprite("simpleOffsetVertical",{animation: simpleOffsetVerticalAnimation, posx: 150})
+                    .addSprite("simpleOffsetHorizontal",{animation: simpleOffsetHorizontalAnimation, posx: 184})
+                    .addSprite("multiOffsetVertical",{animation: multiOffsetVerticalAnimation, posx: 225})
+                    .addSprite("multiOffsetHorizontal",{animation: multiOffsetHorizontalAnimation, posx: 259})
+                    .addSprite("pingpong",{animation: pingpongAnimation, posx: 286, width: 64, height: 64})
+                    .addSprite("multiPingpong",{animation: multiPingpongAnimation, posx: 350, width: 64, height: 64})
+                    .addSprite("callback",{animation: callbackAnim, posx: 414, callback: function(){
+                    	counter++;
+                    	if(counter > 1){
+                    		$("#callback").remove();
+                    	}
+                    }});
+                
+                $("#multiVertical").setAnimation(1);
+                $("#multiHorizontal").setAnimation(1);
+                $("#multiOffsetVertical").setAnimation(1);
+                $("#multiOffsetHorizontal").setAnimation(1);
+                $("#multiPingpong").setAnimation(1);
+                
+                $.playground().startGame();
+            });
+        </script>
+    </head>
+    <body>
+        <h2>1st to 8th : All look the same, without any red visible, 9th and 10th bouncing ball, 11th walk and stops:</h2>
+        <div id="playground" style="width: 350px; height: 50px; background: white"></div>
+    </body>
+</html>
