@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>Tile Map Editor</title>
+	
+	<link rel="shortcut icon" href="favicon.ico" />
+ 
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	
+	<link href='http://fonts.googleapis.com/css?family=Molengo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="overlay">
+        <div class="overlay" id="newOverlay">
+            <div class="header lobster">
+                Create a new Tilemap
+            </div>
+            <div class="content">
+                <form id="newForm">
+                    <table>
+                        <tr>
+                             <td><label>number of tiles</label></td>
+                            <td><input class="intValue"  size="6" placeholder="width" id="newForm_input_map_width"/></td>
+                            <td>x</td>
+                            <td><input class="intValue" size="6" placeholder="height" id="newForm_input_map_height"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>size of a tile</label></td>
+                            <td><input class="intValue" size="6" placeholder="width" id="newForm_input_tile_width"/></td>
+                            <td>x</td>
+                            <td><input class="intValue" size="6" placeholder="height" id="newForm_input_tile_height"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>type of animations</label></td>
+                            <td colspan="3"><select name="decision" id="newForm_input_animations_type">
+                                <option selected>simple animations</option>
+                                <option>multi-animation</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"><button id="newOK" name="ok">create</button><button class="right" id="newCancel" name="cancel">cancel</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="overlay" id="exportOverlay">
+            <div class="header lobster">
+                Generated Code
+            </div>
+            <div class="content">
+                <form id="exportForm">
+                	<textarea id="exportArea" style="font-family: monospace; height: 400px; width: 800px"></textarea>
+                </form>
+                <button class="right" id="addAnimationCancel" name="cancel" >Ok</button>
+            </div>
+        </div>
+        <div class="overlay" id="addAnimationOverlay" style="width: 810px">
+            <div class="header lobster">
+                Add new animation
+            </div>
+            <div class="content">
+                <form id="addAnimationForm">
+                    <table style="width: 280px; float: left;">
+                        <tr>
+                            <td><label>name</label></td>
+                            <td colspan="3"><input size="31" id="addAnimationForm_input_name"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>URL</label></td>
+                            <td colspan="3"><input size="31" id="addAnimationForm_input_url"/></td>
+                        </tr>
+                        <tr>
+                            <td><label># frame</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_nbframes"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>rate (in ms)</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_rate"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>X offset</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_offsetx"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Y offset</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_offsety"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>delta</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_delta"/></td>
+                        </tr>
+                        <tr class="multianimation">
+                            <td><label>number of animations</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_nbanimations"/></td>
+                        </tr>
+                        <tr class="multianimation">
+                            <td><label>distance</label></td>
+                            <td colspan="3"><input class="intValue" size="31" id="addAnimationForm_input_distance"/></td>
+                        </tr>
+                        <tr>
+                            <td><label>Type</label></td>
+                            <td colspan="3"><select name="decision" id="addAnimationForm_input_type">
+                                <option selected>ANIMATION_VERTICAL</option>
+                                <option>ANIMATION_HORIZONTAL</option>
+                            </select></td>
+                        </tr>
+                    </table>
+	                <div id="addAnimationImage" style="width: 518px; height: 300px; float: left;">
+	                	<div id="addAnimationSelectionBox"></div>
+	                </div>
+	                <div id="addAnimationButtons" style="width: 800px;">
+	                	<button id="addAnimationOK" name="ok">create</button><button class="right" id="addAnimationCancel" name="cancel">cancel</button>
+	                </div>
+                </form>
+            </div>
+        </div>
+        <div class="overlay" id="helpOverlay" style="width: 690px;">
+	        <div class="header lobster">
+	            Help
+	        </div>
+	        <div class="content">
+	            <iframe style="float: right; margin-left: 10px" src="http://player.vimeo.com/video/38842731?portrait=0&amp;color=ff9933" width="340" height="204" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	            
+	            <strong>About</strong>
+	            <p>This is an editor that allow you to create simple tilemap to use with the <a href="http://gamequeryjs.com">gameQuery</a> engine. It's a pure client-side application which means that you can simply run it locally if you want. For the source code you can look at <a href="https://github.com/onaluf/gameQuery/tree/master/tools/tilemapEditor">github</a></p>
+	            
+	            <strong>Create a new map</strong>
+	            <p>Click on the "new" button to start a new tile map. You will then need to enter the width and height of you map (in number of tiles) and the size of a tile. You can then choose what kind of animations will constitute the map.</p>
+	            
+	            <strong>Add an animation to the animation list</strong>
+	            <p>Once you've created a map you can start adding animations. If you've chosen multi-animation you can only add one animation but it will automatically generate the others.</p>
+	            
+	            <strong>Remove an animation from the animation list </strong>
+	            <p>Click the small cross in the upper-right corner of an animation to delete it, all the tile with this animations will be deleted too. Please note that if you delete a multi-animation, they will all be deleted.</p>
+	            
+	            <strong>Add an animation to a tile</strong>
+	            <p>Select an animation from your list (if you don't have any, see abov on how to add one). Click any tile on the map to add the animation to it.</p>
+	            
+	            <strong>Remove an animation from a tile</strong>
+	            <p>Select the tile and press "backspace". Note to select a tile without changing its animation just re-click on the currently selected animation to deselect it.</p>
+	            
+	            <strong>Expand or contract the tile map</strong>
+	            <p>If you click on the +/- sign on the upper-right corner of the tile map a new colonne will be added (or removed). If you click on the +/- sign in the lower-right corner of the tile map a new line will be added (or removed) to the tile map.</p>
+	
+	            <button class="right" id="helpOk" name="cancel">Ok</button>
+	        </div>
+	    </div>
+    </div>
+	<div id="toolbarTile">
+		<span>
+			<span class="lobster">Tile Map Editor</span> &gt;&gt;
+			<button id="newButton">new</button>
+			<button id="saveButton" class="disabled" style="width: 60px">export</button>
+			<button id="gridButton" class="disabled" style="width: 100px">grid on/off</button>
+            <button id="helpButton" class="right">?</button>
+		</span>
+	</div>
+	<div id="tilemap">
+		<div id="tiles"></div>
+		<div id="grid"></div>
+	</div>
+	
+	<div id="toolbarAnimation">
+		Animations >>
+		<button id="addAnimationButton" class="disabled">add</button>
+	</div>
+	<div id="animations"></div>
+</body>
+</html>
