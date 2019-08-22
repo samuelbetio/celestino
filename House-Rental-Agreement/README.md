@@ -1,6 +1,6 @@
 
-**House Rental Agreement
-LopezvilleSubd.,Banga, Bayawan City**
+**House Rental Agreement**
+**LopezvilleSubd.,Banga, Bayawan City**
 
 
 **Date:** June 30, 2019
@@ -26,7 +26,7 @@ Tenant agrees to pay the rent in the amount of **3,500** per month, each payment
 
 
    **MRS. RUTH G. RAMOS**	                      **MRS. KEZIAH KRISTINA MAPUTI-DIABO**
-            Owner					Tenant
+            Owner				                                    	Tenant
 
 
 
