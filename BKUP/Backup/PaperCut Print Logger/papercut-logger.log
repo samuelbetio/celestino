@@ -1,0 +1,751 @@
+Jan 18 01:16:23 INFO : Service installed successfully.
+Jan 18 01:16:23 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 3896, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 01:16:23 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 01:16:24 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 01:16:24 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 01:16:24 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 01:16:24 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 01:16:24 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 01:16:24 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 01:16:24 INFO : Monitoring 3 printers.
+Jan 18 01:16:55 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 3268, Hostname: Operator-PC, AppServer: localhost:9191, User: Operator
+Jan 18 01:16:55 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 01:16:55 ERROR: Unable to start service dispatcher - The service process could not connect to the service controller. (Error: 1063)
+Jan 18 01:17:56 INFO : Stopping the print provider service. PID: 3896
+Jan 18 01:17:56 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 18 01:19:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 744, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 01:19:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 01:19:48 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 01:19:48 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 01:19:48 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 01:19:48 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 01:19:48 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 01:19:48 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 01:19:48 INFO : Monitoring 3 printers.
+Jan 18 01:27:53 INFO : Stopping the print provider service. PID: 744
+Jan 18 01:27:53 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 18 01:43:20 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 600, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 01:43:20 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 01:43:23 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 01:43:23 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 01:43:23 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 01:43:23 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 01:43:23 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 01:43:23 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 01:43:23 INFO : Monitoring 3 printers.
+Jan 18 01:48:17 INFO : Stopping the print provider service. PID: 600
+Jan 18 01:48:17 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 18 02:04:29 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1920, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 02:04:29 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 02:05:21 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 02:05:21 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 02:05:21 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 02:05:21 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 02:05:21 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 02:05:21 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 02:05:21 INFO : Monitoring 3 printers.
+Jan 18 02:09:03 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 996, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 02:09:03 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 02:09:04 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 02:09:04 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 02:09:04 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 02:09:04 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 02:09:04 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 02:09:04 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 02:09:04 INFO : Monitoring 3 printers.
+Jan 18 02:14:00 INFO : Stopping the print provider service. PID: 996
+Jan 18 02:14:00 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 18 09:30:49 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 860, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 18 09:30:49 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 18 09:30:51 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 18 09:30:51 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 18 09:30:51 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 18 09:30:51 INFO : Monitoring printer: SHARP AR-6020
+Jan 18 09:30:51 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 18 09:30:51 INFO : Monitoring printer: EPSON L120 Series
+Jan 18 09:30:51 INFO : Monitoring 3 printers.
+Jan 18 23:02:04 INFO : Stopping the print provider service. PID: 860
+Jan 18 23:02:04 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 19 08:29:55 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 680, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 19 08:29:55 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 19 08:29:58 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 19 08:29:58 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 19 08:29:58 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 19 08:29:58 INFO : Monitoring printer: SHARP AR-6020
+Jan 19 08:29:58 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 19 08:29:58 INFO : Monitoring printer: EPSON L120 Series
+Jan 19 08:29:58 INFO : Monitoring 3 printers.
+Jan 20 06:38:46 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 748, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 20 06:38:46 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 20 06:38:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 20 06:38:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 20 06:38:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 20 06:38:49 INFO : Monitoring printer: SHARP AR-6020
+Jan 20 06:38:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 20 06:38:49 INFO : Monitoring printer: EPSON L120 Series
+Jan 20 06:38:49 INFO : Monitoring 3 printers.
+Jan 20 07:05:05 INFO : Stopping the print provider service. PID: 748
+Jan 20 07:05:05 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 20 07:14:12 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 612, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 20 07:14:12 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 20 07:14:13 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 20 07:14:13 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 20 07:14:13 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 20 07:14:13 INFO : Monitoring printer: SHARP AR-6020
+Jan 20 07:14:13 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 20 07:14:13 INFO : Monitoring printer: EPSON L120 Series
+Jan 20 07:14:13 INFO : Monitoring 3 printers.
+Jan 20 07:19:15 INFO : Stopping the print provider service. PID: 612
+Jan 20 07:19:15 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 20 09:26:39 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 544, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 20 09:26:39 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 20 09:26:41 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 20 09:26:41 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 20 09:26:41 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 20 09:26:41 INFO : Monitoring printer: SHARP AR-6020
+Jan 20 09:26:41 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 20 09:26:41 INFO : Monitoring printer: EPSON L120 Series
+Jan 20 09:26:41 INFO : Monitoring 3 printers.
+Jan 20 22:43:25 INFO : Stopping the print provider service. PID: 544
+Jan 20 22:43:25 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 04:03:59 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 616, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 04:03:59 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 04:04:01 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 04:04:01 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 04:04:01 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 04:04:01 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 04:04:01 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 04:04:01 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 04:04:01 INFO : Monitoring 3 printers.
+Jan 21 04:15:05 INFO : Stopping the print provider service. PID: 616
+Jan 21 04:15:05 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 04:16:14 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 632, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 04:16:14 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 04:16:16 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 04:16:16 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 04:16:16 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 04:16:16 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 04:16:16 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 04:16:16 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 04:16:16 INFO : Monitoring 3 printers.
+Jan 21 04:29:32 INFO : Stopping the print provider service. PID: 632
+Jan 21 04:29:32 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 05:59:31 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 616, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 05:59:31 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 05:59:33 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 05:59:33 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 05:59:33 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 05:59:33 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 05:59:33 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 05:59:33 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 05:59:33 INFO : Monitoring 3 printers.
+Jan 21 06:06:16 INFO : Stopping the print provider service. PID: 616
+Jan 21 06:06:16 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 06:07:47 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 604, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 06:07:47 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 06:07:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 06:07:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 06:07:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 06:07:49 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 06:07:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 06:07:49 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 06:07:49 INFO : Monitoring 3 printers.
+Jan 21 06:13:47 INFO : Stopping the print provider service. PID: 604
+Jan 21 06:13:47 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 08:58:16 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 548, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 08:58:16 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 08:58:18 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 08:58:18 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 08:58:18 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 08:58:18 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 08:58:18 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 08:58:18 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 08:58:18 INFO : Monitoring 3 printers.
+Jan 21 09:02:48 INFO : Stopping the print provider service. PID: 548
+Jan 21 09:02:48 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 21 09:04:05 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 636, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 21 09:04:05 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 21 09:04:07 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 21 09:04:07 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 21 09:04:07 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 21 09:04:07 INFO : Monitoring printer: SHARP AR-6020
+Jan 21 09:04:07 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 21 09:04:07 INFO : Monitoring printer: EPSON L120 Series
+Jan 21 09:04:07 INFO : Monitoring 3 printers.
+Jan 21 20:29:06 ERROR: Unable to map file into memory: C:\Windows\system32\spool\printers\00062.SPL, Size: 1930811800 - Not enough storage is available to process this command. (Error: 8)
+Jan 21 23:27:08 INFO : Stopping the print provider service. PID: 636
+Jan 21 23:27:08 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 22 09:11:48 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 264, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 22 09:11:48 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 22 09:11:50 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 22 09:11:50 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 22 09:11:50 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 22 09:11:50 INFO : Monitoring printer: SHARP AR-6020
+Jan 22 09:11:50 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 22 09:11:50 INFO : Monitoring printer: EPSON L120 Series
+Jan 22 09:11:50 INFO : Monitoring 3 printers.
+Jan 22 22:46:24 INFO : Stopping the print provider service. PID: 264
+Jan 22 22:46:24 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 23 09:08:37 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 23 09:08:37 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 23 09:08:39 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 23 09:08:39 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 23 09:08:39 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 23 09:08:39 INFO : Monitoring printer: SHARP AR-6020
+Jan 23 09:08:39 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 23 09:08:39 INFO : Monitoring printer: EPSON L120 Series
+Jan 23 09:08:39 INFO : Monitoring 3 printers.
+Jan 23 17:46:51 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 612, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 23 17:46:51 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 23 17:46:53 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 23 17:46:53 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 23 17:46:53 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 23 17:46:53 INFO : Monitoring printer: SHARP AR-6020
+Jan 23 17:46:53 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 23 17:46:53 INFO : Monitoring printer: EPSON L120 Series
+Jan 23 17:46:53 INFO : Monitoring 3 printers.
+Jan 23 20:13:19 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 552, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 23 20:13:19 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 23 20:13:21 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 23 20:13:21 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 23 20:13:21 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 23 20:13:21 INFO : Monitoring printer: SHARP AR-6020
+Jan 23 20:13:21 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 23 20:13:21 INFO : Monitoring printer: EPSON L120 Series
+Jan 23 20:13:21 INFO : Monitoring 3 printers.
+Jan 24 00:10:03 INFO : Stopping the print provider service. PID: 552
+Jan 24 00:10:03 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 24 08:49:27 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 636, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 24 08:49:27 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 24 08:49:29 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 24 08:49:29 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 24 08:49:29 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 24 08:49:29 INFO : Monitoring printer: SHARP AR-6020
+Jan 24 08:49:29 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 24 08:49:29 INFO : Monitoring printer: EPSON L120 Series
+Jan 24 08:49:29 INFO : Monitoring 3 printers.
+Jan 25 08:43:23 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 724, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 25 08:43:23 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 25 08:43:25 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 25 08:43:25 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 25 08:43:25 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 25 08:43:25 INFO : Monitoring printer: SHARP AR-6020
+Jan 25 08:43:25 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 25 08:43:25 INFO : Monitoring printer: EPSON L120 Series
+Jan 25 08:43:25 INFO : Monitoring 3 printers.
+Jan 25 09:06:06 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 740, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 25 09:06:06 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 25 09:06:08 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 25 09:06:08 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 25 09:06:08 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 25 09:06:08 INFO : Monitoring printer: SHARP AR-6020
+Jan 25 09:06:08 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 25 09:06:08 INFO : Monitoring printer: EPSON L120 Series
+Jan 25 09:06:08 INFO : Monitoring 3 printers.
+Jan 25 16:29:40 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 728, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 25 16:29:40 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 25 16:29:42 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 25 16:29:42 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 25 16:29:42 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 25 16:29:42 INFO : Monitoring printer: SHARP AR-6020
+Jan 25 16:29:42 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 25 16:29:42 INFO : Monitoring printer: EPSON L120 Series
+Jan 25 16:29:42 INFO : Monitoring 3 printers.
+Jan 25 23:13:52 INFO : Stopping the print provider service. PID: 728
+Jan 25 23:13:52 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 25 23:15:14 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 632, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 25 23:15:14 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 25 23:15:17 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 25 23:15:17 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 25 23:15:17 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 25 23:15:17 INFO : Monitoring printer: SHARP AR-6020
+Jan 25 23:15:17 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 25 23:15:17 INFO : Monitoring printer: EPSON L120 Series
+Jan 25 23:15:17 INFO : Monitoring 3 printers.
+Jan 25 23:15:54 INFO : Stopping the print provider service. PID: 632
+Jan 25 23:15:54 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 26 08:59:17 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 264, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 26 08:59:17 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 26 08:59:19 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 26 08:59:19 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 26 08:59:19 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 26 08:59:19 INFO : Monitoring printer: SHARP AR-6020
+Jan 26 08:59:19 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 26 08:59:19 INFO : Monitoring printer: EPSON L120 Series
+Jan 26 08:59:19 INFO : Monitoring 3 printers.
+Jan 27 00:05:47 INFO : Stopping the print provider service. PID: 264
+Jan 27 00:05:47 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 27 09:05:32 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 728, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 27 09:05:32 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 27 09:05:33 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 27 09:05:33 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 27 09:05:33 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 27 09:05:33 INFO : Monitoring printer: SHARP AR-6020
+Jan 27 09:05:33 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 27 09:05:33 INFO : Monitoring printer: EPSON L120 Series
+Jan 27 09:05:33 INFO : Monitoring 3 printers.
+Jan 27 22:24:53 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 608, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 27 22:24:53 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 27 22:24:55 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 27 22:24:55 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 27 22:24:55 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 27 22:24:55 INFO : Monitoring printer: SHARP AR-6020
+Jan 27 22:24:55 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 27 22:24:55 INFO : Monitoring printer: EPSON L120 Series
+Jan 27 22:24:55 INFO : Monitoring 3 printers.
+Jan 27 22:55:08 ERROR: Unable to open daily CSV log file 'D:\PaperCut Print Logger\logs/csv/daily/papercut-print-log-2019-01-27.csv' - The process cannot access the file because it is being used by another process. (Error: 32)
+Jan 28 09:17:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 624, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 28 09:17:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 28 09:17:46 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 28 09:17:46 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 28 09:17:46 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 28 09:17:46 INFO : Monitoring printer: SHARP AR-6020
+Jan 28 09:17:46 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 28 09:17:46 INFO : Monitoring printer: EPSON L120 Series
+Jan 28 09:17:46 INFO : Monitoring 3 printers.
+Jan 29 00:21:02 INFO : Stopping the print provider service. PID: 624
+Jan 29 00:21:03 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 29 09:00:09 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 29 09:00:09 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 29 09:00:11 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 29 09:00:11 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 29 09:00:11 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 29 09:00:11 INFO : Monitoring printer: SHARP AR-6020
+Jan 29 09:00:11 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 29 09:00:11 INFO : Monitoring printer: EPSON L120 Series
+Jan 29 09:00:11 INFO : Monitoring 3 printers.
+Jan 29 19:37:30 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 744, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 29 19:37:30 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 29 19:37:31 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 29 19:37:31 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 29 19:37:31 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 29 19:37:31 INFO : Monitoring printer: SHARP AR-6020
+Jan 29 19:37:31 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 29 19:37:31 INFO : Monitoring printer: EPSON L120 Series
+Jan 29 19:37:31 INFO : Monitoring 3 printers.
+Jan 29 23:41:55 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 664, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 29 23:41:55 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 29 23:41:56 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 29 23:41:56 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 29 23:41:56 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 29 23:41:56 INFO : Monitoring printer: SHARP AR-6020
+Jan 29 23:41:56 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 29 23:41:56 INFO : Monitoring printer: EPSON L120 Series
+Jan 29 23:41:56 INFO : Monitoring 3 printers.
+Jan 29 23:47:01 ERROR: Unable to open daily CSV log file 'D:\PaperCut Print Logger\logs/csv/daily/papercut-print-log-2019-01-29.csv' - The process cannot access the file because it is being used by another process. (Error: 32)
+Jan 29 23:55:34 ERROR: Unable to open daily CSV log file 'D:\PaperCut Print Logger\logs/csv/daily/papercut-print-log-2019-01-29.csv' - The process cannot access the file because it is being used by another process. (Error: 32)
+Jan 29 23:57:38 INFO : Stopping the print provider service. PID: 664
+Jan 29 23:57:38 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 30 09:25:11 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 520, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 30 09:25:11 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 30 09:25:13 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 30 09:25:13 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 30 09:25:13 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 30 09:25:13 INFO : Monitoring printer: SHARP AR-6020
+Jan 30 09:25:13 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 30 09:25:13 INFO : Monitoring printer: EPSON L120 Series
+Jan 30 09:25:13 INFO : Monitoring 3 printers.
+Jan 30 21:38:59 INFO : Stopping the print provider service. PID: 520
+Jan 30 21:38:59 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 30 21:40:43 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 30 21:40:43 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 30 21:40:45 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 30 21:40:45 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 30 21:40:45 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 30 21:40:45 INFO : Monitoring printer: SHARP AR-6020
+Jan 30 21:40:45 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 30 21:40:45 INFO : Monitoring printer: EPSON L120 Series
+Jan 30 21:40:45 INFO : Monitoring 3 printers.
+Jan 30 22:10:55 INFO : Stopping the print provider service. PID: 268
+Jan 30 22:10:55 INFO : Stopping print monitor service on server 'operator-pc'.
+Jan 31 09:07:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 612, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 31 09:07:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 31 09:07:47 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 31 09:07:47 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 31 09:07:47 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 31 09:07:47 INFO : Monitoring printer: SHARP AR-6020
+Jan 31 09:07:47 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 31 09:07:47 INFO : Monitoring printer: EPSON L120 Series
+Jan 31 09:07:47 INFO : Monitoring 3 printers.
+Jan 31 22:13:35 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 548, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Jan 31 22:13:35 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Jan 31 22:13:36 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Jan 31 22:13:36 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Jan 31 22:13:36 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Jan 31 22:13:36 INFO : Monitoring printer: SHARP AR-6020
+Jan 31 22:13:36 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Jan 31 22:13:36 INFO : Monitoring printer: EPSON L120 Series
+Jan 31 22:13:36 INFO : Monitoring 3 printers.
+Feb 01 00:00:00 INFO : Stopping the print provider service. PID: 548
+Feb 01 00:00:00 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 01 09:23:47 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 01 09:23:47 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 01 09:23:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 01 09:23:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 01 09:23:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 01 09:23:49 INFO : Monitoring printer: SHARP AR-6020
+Feb 01 09:23:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 01 09:23:49 INFO : Monitoring printer: EPSON L120 Series
+Feb 01 09:23:49 INFO : Monitoring 3 printers.
+Feb 02 00:07:18 INFO : Stopping the print provider service. PID: 268
+Feb 02 00:07:18 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 02 09:13:52 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 02 09:13:52 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 02 09:13:54 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 02 09:13:54 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 02 09:13:54 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 02 09:13:54 INFO : Monitoring printer: SHARP AR-6020
+Feb 02 09:13:54 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 02 09:13:54 INFO : Monitoring printer: EPSON L120 Series
+Feb 02 09:13:54 INFO : Monitoring 3 printers.
+Feb 02 12:20:08 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 628, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 02 12:20:08 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 02 12:20:10 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 02 12:20:10 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 02 12:20:10 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 02 12:20:10 INFO : Monitoring printer: SHARP AR-6020
+Feb 02 12:20:10 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 02 12:20:10 INFO : Monitoring printer: EPSON L120 Series
+Feb 02 12:20:10 INFO : Monitoring 3 printers.
+Feb 03 09:33:35 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 264, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 03 09:33:35 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 03 09:33:37 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 03 09:33:37 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 03 09:33:37 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 03 09:33:37 INFO : Monitoring printer: SHARP AR-6020
+Feb 03 09:33:37 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 03 09:33:37 INFO : Monitoring printer: EPSON L120 Series
+Feb 03 09:33:37 INFO : Monitoring 3 printers.
+Feb 03 14:52:46 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 616, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 03 14:52:46 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 03 14:52:48 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 03 14:52:48 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 03 14:52:48 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 03 14:52:48 INFO : Monitoring printer: SHARP AR-6020
+Feb 03 14:52:48 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 03 14:52:48 INFO : Monitoring printer: EPSON L120 Series
+Feb 03 14:52:48 INFO : Monitoring 3 printers.
+Feb 03 16:07:06 INFO : Stopping the print provider service. PID: 616
+Feb 03 16:07:06 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 03 16:08:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 03 16:08:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 03 16:08:47 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 03 16:08:47 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 03 16:08:47 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 03 16:08:47 INFO : Monitoring printer: SHARP AR-6020
+Feb 03 16:08:47 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 03 16:08:47 INFO : Monitoring printer: EPSON L120 Series
+Feb 03 16:08:47 INFO : Monitoring 3 printers.
+Feb 04 08:52:54 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 648, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 04 08:52:54 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 04 08:52:56 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 04 08:52:56 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 04 08:52:56 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 04 08:52:56 INFO : Monitoring printer: SHARP AR-6020
+Feb 04 08:52:56 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 04 08:52:56 INFO : Monitoring printer: EPSON L120 Series
+Feb 04 08:52:56 INFO : Monitoring 3 printers.
+Feb 04 23:01:33 ERROR: Unable to open service control manager, when trying to get handle to service: Spooler - A system shutdown is in progress. (Error: 1115)
+Feb 04 23:01:34 INFO : Stopping the print provider service. PID: 648
+Feb 04 23:01:34 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 05 09:41:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 740, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 05 09:41:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 05 09:41:47 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 05 09:41:47 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 05 09:41:47 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 05 09:41:47 INFO : Monitoring printer: SHARP AR-6020
+Feb 05 09:41:47 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 05 09:41:47 INFO : Monitoring printer: EPSON L120 Series
+Feb 05 09:41:47 INFO : Monitoring 3 printers.
+Feb 05 20:38:44 INFO : Some printer change event information discarded due to high server load.
+Feb 06 00:11:03 INFO : Stopping the print provider service. PID: 740
+Feb 06 00:11:03 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 06 00:12:23 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 624, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 06 00:12:23 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 06 00:12:25 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 06 00:12:25 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 06 00:12:25 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 06 00:12:25 INFO : Monitoring printer: SHARP AR-6020
+Feb 06 00:12:25 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 06 00:12:25 INFO : Monitoring printer: EPSON L120 Series
+Feb 06 00:12:25 INFO : Monitoring 3 printers.
+Feb 06 00:13:25 ERROR: Unable to open service control manager, when trying to get handle to service: Spooler - A system shutdown is in progress. (Error: 1115)
+Feb 06 00:13:25 INFO : Stopping the print provider service. PID: 624
+Feb 06 00:13:25 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 06 08:54:47 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 544, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 06 08:54:47 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 06 08:54:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 06 08:54:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 06 08:54:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 06 08:54:49 INFO : Monitoring printer: SHARP AR-6020
+Feb 06 08:54:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 06 08:54:49 INFO : Monitoring printer: EPSON L120 Series
+Feb 06 08:54:49 INFO : Monitoring 3 printers.
+Feb 06 11:00:08 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00006.SPL
+Feb 06 11:00:40 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00007.SPL
+Feb 06 11:02:24 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00008.SPL
+Feb 06 22:01:20 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 784, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 06 22:01:20 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 06 22:01:21 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 06 22:01:21 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 06 22:01:21 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 06 22:01:21 INFO : Monitoring printer: SHARP AR-6020
+Feb 06 22:01:21 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 06 22:01:21 INFO : Monitoring printer: EPSON L120 Series
+Feb 06 22:01:21 INFO : Monitoring 3 printers.
+Feb 06 23:27:09 INFO : Stopping the print provider service. PID: 784
+Feb 06 23:27:09 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 07 09:44:31 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 268, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 07 09:44:31 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 07 09:44:33 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 07 09:44:33 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 07 09:44:33 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 07 09:44:33 INFO : Monitoring printer: SHARP AR-6020
+Feb 07 09:44:33 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 07 09:44:33 INFO : Monitoring printer: EPSON L120 Series
+Feb 07 09:44:33 INFO : Monitoring 3 printers.
+Feb 07 11:51:47 INFO : Stopping the print provider service. PID: 268
+Feb 07 11:51:47 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 07 11:53:18 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 264, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 07 11:53:18 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 07 11:53:21 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 07 11:53:21 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 07 11:53:21 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 07 11:53:21 INFO : Monitoring printer: SHARP AR-6020
+Feb 07 11:53:21 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 07 11:53:21 INFO : Monitoring printer: EPSON L120 Series
+Feb 07 11:53:21 INFO : Monitoring 3 printers.
+Feb 07 12:21:59 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 604, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 07 12:21:59 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 07 12:22:01 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 07 12:22:01 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 07 12:22:01 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 07 12:22:01 INFO : Monitoring printer: SHARP AR-6020
+Feb 07 12:22:01 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 07 12:22:01 INFO : Monitoring printer: EPSON L120 Series
+Feb 07 12:22:01 INFO : Monitoring 3 printers.
+Feb 07 18:23:38 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 608, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 07 18:23:38 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 07 18:23:41 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 07 18:23:41 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 07 18:23:41 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 07 18:23:41 INFO : Monitoring printer: SHARP AR-6020
+Feb 07 18:23:41 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 07 18:23:41 INFO : Monitoring printer: EPSON L120 Series
+Feb 07 18:23:41 INFO : Monitoring 3 printers.
+Feb 07 19:58:20 INFO : Some printer change event information discarded due to high server load.
+Feb 07 23:53:34 INFO : Stopping the print provider service. PID: 608
+Feb 07 23:53:34 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 08 09:03:08 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 980, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 09:03:08 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 09:03:08 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 09:03:08 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 09:03:08 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 09:03:08 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 09:03:08 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 09:03:08 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 09:03:08 INFO : Monitoring 3 printers.
+Feb 08 11:01:11 ERROR: Unable to open service control manager, when trying to get handle to service: Spooler - No more threads can be created in the system. (Error: 164)
+Feb 08 11:06:49 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1060, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 11:06:49 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 11:06:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 11:06:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 11:06:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 11:06:49 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 11:06:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 11:06:49 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 11:06:49 INFO : Monitoring 3 printers.
+Feb 08 12:11:33 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1072, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 12:11:33 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 12:11:34 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 12:11:34 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 12:11:34 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 12:11:34 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 12:11:34 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 12:11:34 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 12:11:34 INFO : Monitoring 3 printers.
+Feb 08 12:23:49 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1032, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 12:23:49 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 12:23:50 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 12:23:50 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 12:23:50 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 12:23:50 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 12:23:50 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 12:23:50 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 12:23:50 INFO : Monitoring 3 printers.
+Feb 08 13:25:28 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1024, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 13:25:28 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 13:25:28 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 13:25:28 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 13:25:28 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 13:25:28 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 13:25:28 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 13:25:28 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 13:25:28 INFO : Monitoring 3 printers.
+Feb 08 16:50:01 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1196, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 16:50:01 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 16:50:01 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 16:50:01 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 16:50:01 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 16:50:01 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 16:50:01 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 16:50:01 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 16:50:01 INFO : Monitoring 3 printers.
+Feb 08 18:40:18 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 660, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 18:40:18 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 18:40:18 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 18:40:18 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 18:40:18 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 18:40:18 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 18:40:18 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 18:40:18 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 18:40:18 INFO : Monitoring 3 printers.
+Feb 08 19:40:51 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1120, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 19:40:51 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 19:40:51 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 19:40:51 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 19:40:51 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 19:40:51 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 19:40:51 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 19:40:51 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 19:40:51 INFO : Monitoring 3 printers.
+Feb 08 20:13:58 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1212, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 20:13:58 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 20:13:58 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 20:13:58 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 20:13:58 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 20:13:58 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 20:13:58 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 20:13:58 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 20:13:58 INFO : Monitoring 3 printers.
+Feb 08 20:38:14 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 300, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 20:38:14 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 20:38:14 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 20:38:14 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 20:38:14 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 20:38:14 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 20:38:14 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 20:38:14 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 20:38:14 INFO : Monitoring 3 printers.
+Feb 08 21:08:45 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 984, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 21:08:45 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 21:08:45 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 21:08:45 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 21:08:45 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 21:08:45 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 21:08:45 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 21:08:45 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 21:08:45 INFO : Monitoring 3 printers.
+Feb 08 21:55:19 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1148, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 08 21:55:19 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 08 21:55:19 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 08 21:55:19 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 08 21:55:19 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 08 21:55:19 INFO : Monitoring printer: SHARP AR-6020
+Feb 08 21:55:19 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 08 21:55:19 INFO : Monitoring printer: EPSON L120 Series
+Feb 08 21:55:19 INFO : Monitoring 3 printers.
+Feb 09 00:17:00 INFO : Stopping the print provider service. PID: 1148
+Feb 09 00:17:00 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 09 00:17:47 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1060, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 09 00:17:47 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 09 00:17:48 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 09 00:17:48 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 09 00:17:48 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 09 00:17:48 INFO : Monitoring printer: SHARP AR-6020
+Feb 09 00:17:48 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 09 00:17:48 INFO : Monitoring printer: EPSON L120 Series
+Feb 09 00:17:48 INFO : Monitoring 3 printers.
+Feb 09 00:18:17 INFO : Stopping the print provider service. PID: 1060
+Feb 09 00:18:17 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 09 09:06:56 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1028, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 09 09:06:56 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 09 09:06:56 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 09 09:06:56 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 09 09:06:56 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 09 09:06:56 INFO : Monitoring printer: SHARP AR-6020
+Feb 09 09:06:56 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 09 09:06:56 INFO : Monitoring printer: EPSON L120 Series
+Feb 09 09:06:56 INFO : Monitoring 3 printers.
+Feb 09 22:02:07 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1072, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 09 22:02:07 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 09 22:02:07 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 09 22:02:07 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 09 22:02:07 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 09 22:02:07 INFO : Monitoring printer: SHARP AR-6020
+Feb 09 22:02:07 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 09 22:02:07 INFO : Monitoring printer: EPSON L120 Series
+Feb 09 22:02:07 INFO : Monitoring 3 printers.
+Feb 09 23:43:49 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1060, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 09 23:43:49 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 09 23:43:49 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 09 23:43:49 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 09 23:43:49 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 09 23:43:49 INFO : Monitoring printer: SHARP AR-6020
+Feb 09 23:43:49 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 09 23:43:49 INFO : Monitoring printer: EPSON L120 Series
+Feb 09 23:43:49 INFO : Monitoring 3 printers.
+Feb 10 00:18:00 INFO : Stopping the print provider service. PID: 1060
+Feb 10 00:18:00 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 10 09:04:46 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1168, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 10 09:04:46 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 10 09:04:46 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 10 09:04:46 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 10 09:04:46 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 10 09:04:46 INFO : Monitoring printer: SHARP AR-6020
+Feb 10 09:04:46 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 10 09:04:46 INFO : Monitoring printer: EPSON L120 Series
+Feb 10 09:04:46 INFO : Monitoring 3 printers.
+Feb 10 17:32:30 ERROR: mmap size too large: 2434407 kbytes, File: C:\Windows\system32\spool\printers\00065.SPL
+Feb 10 17:32:30 ERROR: Unable to map file into memory: C:\Windows\system32\spool\printers\00065.SPL, Size: 1879048192 - Not enough storage is available to process this command. (Error: 8)
+Feb 10 17:35:22 ERROR: Detected spooler service restarted.  Reinitialise printer monitoring.
+Feb 10 17:35:22 INFO : Windows print spooler service stopped unexpectedly on server 'operator-pc'. Please check Windows event logs for more information.
+Feb 10 23:23:20 INFO : Stopping the print provider service. PID: 1168
+Feb 10 23:23:20 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 11 09:49:03 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1052, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 11 09:49:03 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 11 09:49:03 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 11 09:49:03 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 11 09:49:03 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 11 09:49:03 INFO : Monitoring printer: SHARP AR-6020
+Feb 11 09:49:03 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 11 09:49:03 INFO : Monitoring printer: EPSON L120 Series
+Feb 11 09:49:03 INFO : Monitoring 3 printers.
+Feb 11 12:06:19 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00014.SPL
+Feb 11 12:07:05 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00015.SPL
+Feb 11 12:08:43 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00016.SPL
+Feb 11 12:14:22 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00018.SPL
+Feb 11 12:21:34 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00021.SPL
+Feb 11 22:35:21 INFO : Stopping the print provider service. PID: 1052
+Feb 11 22:35:21 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 12 07:55:47 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 300, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 12 07:55:47 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 12 07:55:47 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 12 07:55:47 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 12 07:55:47 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 12 07:55:47 INFO : Monitoring printer: SHARP AR-6020
+Feb 12 07:55:47 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 12 07:55:47 INFO : Monitoring printer: EPSON L120 Series
+Feb 12 07:55:47 INFO : Monitoring 3 printers.
+Feb 12 23:15:05 INFO : Stopping the print provider service. PID: 300
+Feb 12 23:15:05 INFO : Stopping print monitor service on server 'operator-pc'.
+Feb 13 07:43:44 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1188, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 13 07:43:44 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 13 07:43:44 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 13 07:43:44 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 13 07:43:44 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 13 07:43:44 INFO : Monitoring printer: SHARP AR-6020
+Feb 13 07:43:44 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 13 07:43:44 INFO : Monitoring printer: EPSON L120 Series
+Feb 13 07:43:44 INFO : Monitoring 3 printers.
+Feb 13 11:00:31 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00007.SPL
+Feb 13 11:01:11 ERROR: File of zero length detected: C:\Windows\system32\spool\printers\00008.SPL
+Feb 13 13:40:11 INFO : Starting print provider service. Version: 13.3.0.22799, Arch: x86, PID: 1060, Hostname: Operator-PC, AppServer: localhost:9191, User: SYSTEM
+Feb 13 13:40:11 INFO : Windows version: 7/2008 R2 (Workstation) - 6.1 (Build 7601) - service pack: 1.0 - arch: x86
+Feb 13 13:40:11 INFO : Starting print monitor service (13.3.0.22799) on server 'operator-pc'.
+Feb 13 13:40:11 INFO : Printer "\\Operator-PC\Microsoft XPS Document Writer" will not be monitored because it's a virtual printer (Microsoft XPS Document Writer).
+Feb 13 13:40:11 INFO : Printer "\\Operator-PC\Fax" will not be monitored because it's a virtual printer (Microsoft Shared Fax Driver).
+Feb 13 13:40:11 INFO : Monitoring printer: SHARP AR-6020
+Feb 13 13:40:11 INFO : Monitoring printer: EPSON L120 Series (Copy 1)
+Feb 13 13:40:11 INFO : Monitoring printer: EPSON L120 Series
+Feb 13 13:40:11 INFO : Monitoring 3 printers.
