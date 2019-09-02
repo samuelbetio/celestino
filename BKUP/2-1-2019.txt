@@ -1,0 +1,9 @@
+wifi:5+5+5+5+10+5+20+20+20
+Print:12+6+8
+photocopy:7+8.5+1
+spoilage:2
+working Req. xerox: 4
+Shacel sister time 10
+6 print blank copy
+dorothy: 100
+Roy:168
