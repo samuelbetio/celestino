@@ -1,0 +1,252 @@
+17-01-2019 19:58:20 (402):  2060,3464 - RTStart: D:\CafeSuite\Lang\CafeStation.tra
+17-01-2019 19:58:20 (402):  2060,3464 - RTAddThread
+17-01-2019 19:58:20 (402):  2060,3464 - Init progress bar
+17-01-2019 19:58:20 (402):  2060,3464 - CMisc::Init
+17-01-2019 19:58:20 (402):  2060,3464 - NEndpoint::WinsockStreamEndpoint::Init
+17-01-2019 19:58:20 (402):  2060,3464 - InitDTime
+17-01-2019 19:58:20 (402):  2060,3464 - InitialProcessCommandLine
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\codes.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\config.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\vendor.dat
+17-01-2019 19:58:20 (402):  2060,3464 - ReadConfiguration
+17-01-2019 19:58:20 (402):  2060,3464 - loadconfig : 0
+17-01-2019 19:58:20 (402):  2060,3464 - loadconfig : 0
+17-01-2019 19:58:20 (402):  2060,3464 - Loading config: D:\CafeSuite\Client\CafeAgent.ini
+17-01-2019 19:58:20 (402):  2060,3464 - ---------------CafeStation CafeStation - version 3.70.1 (05.02.2016) was started-----------------
+17-01-2019 19:58:20 (402):  2060,3464 - Data dir: D:\CafeSuite\Data
+17-01-2019 19:58:20 (402):  2060,3464 - Report dir: D:\CafeSuite\Reports
+17-01-2019 19:58:20 (402):  2060,3464 - Backup dir: D:\CafeSuite\Backup
+17-01-2019 19:58:20 (402):  2060,3464 - Client dir: D:\CafeSuite\Client
+17-01-2019 19:58:20 (402):  2060,3464 - Lang dir: D:\CafeSuite\Lang
+17-01-2019 19:58:20 (402):  2060,3464 - Registry key: SOFTWARE\CafeSuite\CafeStation
+17-01-2019 19:58:20 (402):  2060,3464 - CURL version 7.24.0, SSL version (null)
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\users.dat
+17-01-2019 19:58:20 (402):  2060,3464 - FurtherProcessCommandLine
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\restrictions.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\rates.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\groups.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\complist.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\products.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\sales.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\reserve.dat
+17-01-2019 19:58:20 (402):  2060,3464 - Init D:\CafeSuite\Data\accounts.dat
+17-01-2019 19:58:20 (402):  2060,3464 - CDiskFile::Init
+17-01-2019 19:58:20 (402):  2060,3464 - Resetting vending machine transaction
+17-01-2019 19:58:20 (402):  2060,3464 - Resetting vending machine transaction
+17-01-2019 19:58:20 (402):  2060,3464 - Resetting vending machine transaction
+17-01-2019 19:58:20 (402):  2060,3464 - Resetting vending machine transaction
+17-01-2019 19:58:20 (402):  2060,3464 - Resetting vending machine transaction
+17-01-2019 19:58:20 (402):  2060,3464 - CMainFrame::OnCreate
+17-01-2019 19:58:20 (402):  2060,3464 - CMainFrame::OnCreateClient
+17-01-2019 19:58:21 (403):  2060,3464 - Init D:\CafeSuite\Reports\2019-01-17.LOG
+17-01-2019 19:58:22 (404):  2060,3464 - serverSock.StartServer
+17-01-2019 19:58:22 (404):  2060,3464 - Removing progress bar
+17-01-2019 19:58:22 (404):  2060,3464 - Hiding progress bar
+17-01-2019 19:58:22 (404):  2060,3464 - ERR: Progress bar not available!
+17-01-2019 19:58:25 (407):  2060,3464 - Showing progress bar
+17-01-2019 19:58:25 (407):  2060,3464 - ERR: Progress bar not available!
+17-01-2019 19:58:25 (407):  2060,3464 - CWorkstationsView::OnInitialUpdate
+17-01-2019 19:58:25 (407):  2060,3464 - InsertColumns
+17-01-2019 19:58:25 (407):  2060,3464 - LoadComputers
+17-01-2019 19:58:25 (407):  2060,3464 - exiting CWorkstationsView::OnInitialUpdate
+17-01-2019 19:58:27 (409):  2060,3524 - Starting print monitoring
+17-01-2019 19:58:27 (409):  2060,3464 - OnDelayedStart...
+17-01-2019 19:58:27 (409):  2060,3464 - Checking accounts...
+17-01-2019 19:58:27 (409):  2060,3464 - CheckAllAccounts
+17-01-2019 19:58:27 (409):  2060,3464 - UpdateReservations
+17-01-2019 19:58:30 (412):  2060,3464 - FreeReservations
+17-01-2019 19:58:53 (435):  2060,3464 - Init progress bar
+17-01-2019 19:58:53 (435):  2060,3464 - Print monitoring stopped
+17-01-2019 19:58:54 (436):  2060,3464 - Stopping RADIUS gateway...
+17-01-2019 19:58:54 (436):  2060,792 - THREAD_IN: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,2332 - THREAD_IN: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,3464 - OnExit
+17-01-2019 19:58:54 (436):  2060,896 - THREAD_IN: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,792 - THREAD_OUT: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,2332 - THREAD_OUT: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,896 - THREAD_OUT: PeriodicBackupThread
+17-01-2019 19:58:54 (436):  2060,3464 - Closing network component
+17-01-2019 19:58:54 (436):  2060,3464 - ---------------CafeStation was closed-----------------
+17-01-2019 19:58:54 (436):  2060,3464 - All datafiles closed
+17-01-2019 19:58:54 (436):  2060,3464 - Removing progress bar
+17-01-2019 19:59:13 (456):  3948,3944 - RTStart: D:\CafeSuite\Lang\CafeStation.tra
+17-01-2019 19:59:13 (456):  3948,3944 - RTAddThread
+17-01-2019 19:59:13 (456):  3948,3944 - Init progress bar
+17-01-2019 19:59:13 (456):  3948,3944 - CMisc::Init
+17-01-2019 19:59:13 (456):  3948,3944 - NEndpoint::WinsockStreamEndpoint::Init
+17-01-2019 19:59:13 (456):  3948,3944 - InitDTime
+17-01-2019 19:59:13 (456):  3948,3944 - InitialProcessCommandLine
+17-01-2019 19:59:13 (456):  3948,3944 - Init D:\CafeSuite\Data\codes.dat
+17-01-2019 19:59:13 (456):  3948,3944 - Init D:\CafeSuite\Data\config.dat
+17-01-2019 19:59:13 (456):  3948,3944 - Init D:\CafeSuite\vendor.dat
+17-01-2019 19:59:13 (456):  3948,3944 - ReadConfiguration
+17-01-2019 19:59:13 (456):  3948,3944 - loadconfig : 0
+17-01-2019 19:59:13 (456):  3948,3944 - loadconfig : 0
+17-01-2019 19:59:13 (456):  3948,3944 - Loading config: D:\CafeSuite\Client\CafeAgent.ini
+17-01-2019 19:59:13 (456):  3948,3944 - ---------------CafeStation CafeStation - version 3.70.1 (05.02.2016) was started-----------------
+17-01-2019 19:59:13 (456):  3948,3944 - Data dir: D:\CafeSuite\Data
+17-01-2019 19:59:13 (456):  3948,3944 - Report dir: D:\CafeSuite\Reports
+17-01-2019 19:59:13 (456):  3948,3944 - Backup dir: D:\CafeSuite\Backup
+17-01-2019 19:59:13 (456):  3948,3944 - Client dir: D:\CafeSuite\Client
+17-01-2019 19:59:13 (456):  3948,3944 - Lang dir: D:\CafeSuite\Lang
+17-01-2019 19:59:14 (456):  3948,3944 - Registry key: SOFTWARE\CafeSuite\CafeStation
+17-01-2019 19:59:14 (456):  3948,3944 - CURL version 7.24.0, SSL version (null)
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\users.dat
+17-01-2019 19:59:14 (456):  3948,3944 - FurtherProcessCommandLine
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\restrictions.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\rates.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\groups.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\complist.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\products.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\sales.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\reserve.dat
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Data\accounts.dat
+17-01-2019 19:59:14 (456):  3948,3944 - CDiskFile::Init
+17-01-2019 19:59:14 (456):  3948,3944 - Resetting vending machine transaction
+17-01-2019 19:59:14 (456):  3948,3944 - Resetting vending machine transaction
+17-01-2019 19:59:14 (456):  3948,3944 - Resetting vending machine transaction
+17-01-2019 19:59:14 (456):  3948,3944 - Resetting vending machine transaction
+17-01-2019 19:59:14 (456):  3948,3944 - Resetting vending machine transaction
+17-01-2019 19:59:14 (456):  3948,3944 - CMainFrame::OnCreate
+17-01-2019 19:59:14 (456):  3948,3944 - CMainFrame::OnCreateClient
+17-01-2019 19:59:14 (456):  3948,3944 - Init D:\CafeSuite\Reports\2019-01-17.LOG
+17-01-2019 19:59:15 (457):  3948,3944 - serverSock.StartServer
+17-01-2019 19:59:15 (457):  3948,3944 - The application was offline for 20 sec.
+17-01-2019 19:59:15 (457):  3948,3944 - Removing progress bar
+17-01-2019 19:59:15 (457):  3948,3944 - Hiding progress bar
+17-01-2019 19:59:15 (457):  3948,3944 - ERR: Progress bar not available!
+17-01-2019 19:59:17 (459):  3948,3944 - Showing progress bar
+17-01-2019 19:59:17 (459):  3948,3944 - ERR: Progress bar not available!
+17-01-2019 19:59:17 (459):  3948,3944 - CWorkstationsView::OnInitialUpdate
+17-01-2019 19:59:17 (459):  3948,3944 - InsertColumns
+17-01-2019 19:59:17 (459):  3948,3944 - LoadComputers
+17-01-2019 19:59:17 (459):  3948,3944 - exiting CWorkstationsView::OnInitialUpdate
+17-01-2019 19:59:18 (460):  3948,3896 - Starting print monitoring
+17-01-2019 19:59:18 (460):  3948,3944 - OnDelayedStart...
+17-01-2019 19:59:18 (460):  3948,3944 - UpdateReservations
+17-01-2019 19:59:20 (462):  3948,3944 - FreeReservations
+17-01-2019 19:59:22 (464):  3948,3944 - VPCXP: Time was started for this computer
+17-01-2019 19:59:29 (472):  3948,3944 - ERR: LookupMac::IcmpSendEcho : 11010 (Error due to lack of resources.
+)
+17-01-2019 19:59:29 (472):  3948,3944 - VPCXP: Waking up computer with address: vpcxp and MAC: FFFFFFFFFFFF (broadcast mask: 192.168.1.255)
+17-01-2019 19:59:56 (498):  3948,3944 - VPCXP: Time ended (price: $0, rates: Normal)
+17-01-2019 19:59:57 (499):  3948,3944 - Init progress bar
+17-01-2019 19:59:57 (499):  3948,3944 - Print monitoring stopped
+17-01-2019 19:59:58 (500):  3948,3944 - Stopping RADIUS gateway...
+17-01-2019 19:59:58 (500):  3948,3944 - OnExit
+17-01-2019 19:59:58 (500):  3948,3944 - Closing network component
+17-01-2019 19:59:58 (500):  3948,3944 - ---------------CafeStation was closed-----------------
+17-01-2019 19:59:58 (500):  3948,3944 - All datafiles closed
+17-01-2019 19:59:58 (500):  3948,3944 - Removing progress bar
+17-01-2019 23:33:28 (451):  3276,3300 - RTStart: D:\CafeSuite\Lang\CafeStation.tra
+17-01-2019 23:33:28 (451):  3276,3300 - RTAddThread
+17-01-2019 23:33:28 (451):  3276,3300 - Init progress bar
+17-01-2019 23:33:28 (451):  3276,3300 - CMisc::Init
+17-01-2019 23:33:28 (451):  3276,3300 - NEndpoint::WinsockStreamEndpoint::Init
+17-01-2019 23:33:28 (451):  3276,3300 - InitDTime
+17-01-2019 23:33:28 (451):  3276,3300 - InitialProcessCommandLine
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\codes.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\config.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\vendor.dat
+17-01-2019 23:33:28 (451):  3276,3300 - ReadConfiguration
+17-01-2019 23:33:28 (451):  3276,3300 - loadconfig : 0
+17-01-2019 23:33:28 (451):  3276,3300 - loadconfig : 0
+17-01-2019 23:33:28 (451):  3276,3300 - Loading config: D:\CafeSuite\Client\CafeAgent.ini
+17-01-2019 23:33:28 (451):  3276,3300 - ---------------CafeStation CafeStation - version 3.70.1 (05.02.2016) was started-----------------
+17-01-2019 23:33:28 (451):  3276,3300 - Data dir: D:\CafeSuite\Data
+17-01-2019 23:33:28 (451):  3276,3300 - Report dir: D:\CafeSuite\Reports
+17-01-2019 23:33:28 (451):  3276,3300 - Backup dir: D:\CafeSuite\Backup
+17-01-2019 23:33:28 (451):  3276,3300 - Client dir: D:\CafeSuite\Client
+17-01-2019 23:33:28 (451):  3276,3300 - Lang dir: D:\CafeSuite\Lang
+17-01-2019 23:33:28 (451):  3276,3300 - Registry key: SOFTWARE\CafeSuite\CafeStation
+17-01-2019 23:33:28 (451):  3276,3300 - CURL version 7.24.0, SSL version (null)
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\users.dat
+17-01-2019 23:33:28 (451):  3276,3300 - FurtherProcessCommandLine
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\restrictions.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\rates.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\groups.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\complist.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\products.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\sales.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\reserve.dat
+17-01-2019 23:33:28 (451):  3276,3300 - Init D:\CafeSuite\Data\accounts.dat
+17-01-2019 23:33:28 (451):  3276,3300 - CDiskFile::Init
+17-01-2019 23:33:28 (451):  3276,3300 - Resetting vending machine transaction
+17-01-2019 23:33:28 (451):  3276,3300 - Resetting vending machine transaction
+17-01-2019 23:33:28 (451):  3276,3300 - Resetting vending machine transaction
+17-01-2019 23:33:28 (451):  3276,3300 - Resetting vending machine transaction
+17-01-2019 23:33:28 (451):  3276,3300 - Resetting vending machine transaction
+17-01-2019 23:33:28 (451):  3276,3300 - CMainFrame::OnCreate
+17-01-2019 23:33:28 (451):  3276,3300 - CMainFrame::OnCreateClient
+17-01-2019 23:33:29 (452):  3276,3300 - Init D:\CafeSuite\Reports\2019-01-17.LOG
+17-01-2019 23:33:30 (453):  3276,3300 - serverSock.StartServer
+17-01-2019 23:33:30 (453):  3276,3300 - The application was offline for 3 h 33 min.
+17-01-2019 23:33:30 (453):  3276,3300 - Removing progress bar
+17-01-2019 23:33:30 (453):  3276,3300 - Hiding progress bar
+17-01-2019 23:33:30 (453):  3276,3300 - ERR: Progress bar not available!
+17-01-2019 23:33:35 (459):  3276,3300 - Showing progress bar
+17-01-2019 23:33:35 (459):  3276,3300 - ERR: Progress bar not available!
+17-01-2019 23:33:35 (459):  3276,3300 - Init progress bar
+17-01-2019 23:33:35 (459):  3276,3300 - Print monitoring stopped
+17-01-2019 23:33:36 (460):  3276,3300 - Stopping RADIUS gateway...
+17-01-2019 23:33:36 (460):  3276,3300 - OnExit
+17-01-2019 23:33:36 (460):  3276,3300 - Closing network component
+17-01-2019 23:33:36 (460):  3276,3300 - ---------------CafeStation was closed-----------------
+17-01-2019 23:33:36 (460):  3276,3300 - All datafiles closed
+17-01-2019 23:33:36 (460):  3276,3300 - Removing progress bar
+17-01-2019 23:40:51 (894):  3668,3304 - RTStart: D:\CafeSuite\Lang\CafeStation.tra
+17-01-2019 23:40:51 (894):  3668,3304 - RTAddThread
+17-01-2019 23:40:51 (894):  3668,3304 - Init progress bar
+17-01-2019 23:40:51 (894):  3668,3304 - CMisc::Init
+17-01-2019 23:40:51 (894):  3668,3304 - NEndpoint::WinsockStreamEndpoint::Init
+17-01-2019 23:40:51 (894):  3668,3304 - InitDTime
+17-01-2019 23:40:51 (894):  3668,3304 - InitialProcessCommandLine
+17-01-2019 23:40:51 (894):  3668,3304 - Init D:\CafeSuite\Data\codes.dat
+17-01-2019 23:40:51 (894):  3668,3304 - Init D:\CafeSuite\Data\config.dat
+17-01-2019 23:40:51 (894):  3668,3304 - Init D:\CafeSuite\vendor.dat
+17-01-2019 23:40:51 (894):  3668,3304 - ReadConfiguration
+17-01-2019 23:40:51 (894):  3668,3304 - loadconfig : 0
+17-01-2019 23:40:51 (894):  3668,3304 - loadconfig : 0
+17-01-2019 23:40:51 (894):  3668,3304 - Loading config: D:\CafeSuite\Client\CafeAgent.ini
+17-01-2019 23:40:51 (895):  3668,3304 - ---------------CafeStation CafeStation - version 3.70.1 (05.02.2016) was started-----------------
+17-01-2019 23:40:51 (895):  3668,3304 - Data dir: D:\CafeSuite\Data
+17-01-2019 23:40:51 (895):  3668,3304 - Report dir: D:\CafeSuite\Reports
+17-01-2019 23:40:51 (895):  3668,3304 - Backup dir: D:\CafeSuite\Backup
+17-01-2019 23:40:51 (895):  3668,3304 - Client dir: D:\CafeSuite\Client
+17-01-2019 23:40:51 (895):  3668,3304 - Lang dir: D:\CafeSuite\Lang
+17-01-2019 23:40:51 (895):  3668,3304 - Registry key: SOFTWARE\CafeSuite\CafeStation
+17-01-2019 23:40:51 (895):  3668,3304 - CURL version 7.24.0, SSL version (null)
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\users.dat
+17-01-2019 23:40:51 (895):  3668,3304 - FurtherProcessCommandLine
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\restrictions.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\rates.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\groups.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\complist.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\products.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\sales.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\reserve.dat
+17-01-2019 23:40:51 (895):  3668,3304 - Init D:\CafeSuite\Data\accounts.dat
+17-01-2019 23:40:51 (895):  3668,3304 - CDiskFile::Init
+17-01-2019 23:40:51 (895):  3668,3304 - Resetting vending machine transaction
+17-01-2019 23:40:51 (895):  3668,3304 - Resetting vending machine transaction
+17-01-2019 23:40:51 (895):  3668,3304 - Resetting vending machine transaction
+17-01-2019 23:40:51 (895):  3668,3304 - Resetting vending machine transaction
+17-01-2019 23:40:51 (895):  3668,3304 - Resetting vending machine transaction
+17-01-2019 23:40:51 (895):  3668,3304 - CMainFrame::OnCreate
+17-01-2019 23:40:51 (895):  3668,3304 - CMainFrame::OnCreateClient
+17-01-2019 23:40:52 (895):  3668,3304 - Init D:\CafeSuite\Reports\2019-01-17.LOG
+17-01-2019 23:40:53 (896):  3668,3304 - serverSock.StartServer
+17-01-2019 23:40:53 (896):  3668,3304 - The application was offline for 7 min.
+17-01-2019 23:40:53 (896):  3668,3304 - Removing progress bar
+17-01-2019 23:40:53 (896):  3668,3304 - Hiding progress bar
+17-01-2019 23:40:53 (896):  3668,3304 - ERR: Progress bar not available!
+17-01-2019 23:40:55 (898):  3668,3304 - Showing progress bar
+17-01-2019 23:40:55 (898):  3668,3304 - ERR: Progress bar not available!
+17-01-2019 23:40:55 (898):  3668,3304 - Init progress bar
+17-01-2019 23:40:55 (898):  3668,3304 - Print monitoring stopped
+17-01-2019 23:40:56 (899):  3668,3304 - Stopping RADIUS gateway...
+17-01-2019 23:40:56 (899):  3668,3304 - OnExit
+17-01-2019 23:40:56 (899):  3668,3304 - Closing network component
+17-01-2019 23:40:56 (899):  3668,3304 - ---------------CafeStation was closed-----------------
+17-01-2019 23:40:56 (899):  3668,3304 - All datafiles closed
+17-01-2019 23:40:56 (899):  3668,3304 - Removing progress bar

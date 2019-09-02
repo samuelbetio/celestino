@@ -1,0 +1,49 @@
+END USER LICENSE AGREEMENT
+
+By using this version of CafeSuite you are consenting to be bound by agreement to the following:
+
+DEFINITIONS
+AUTHOR refers to Mr. Przemyslaw Miszczuk.
+COMPANY refers to 'SOFCIK Przemyslaw Miszczuk' based in Poland.
+SOFTWARE refers to CafeSuite or any of its components including CafeStation and CafeAgent.
+UPGRADE includes all versions of the SOFTWARE released within a given time.
+MODULE refers to a distinct part of the SOFTWARE that might be activated separately.
+VERSION refers to a particular UPGRADE of the SOFTWARE.
+WEBSITE refers to official www.cafesuite.net website.
+USER refers to the person who operates the SOFTWARE.
+REGISTERED USER refers to the legitimate owner of COMMERCIAL VERSION of the SOFTWARE.
+FREE VERSION includes all the free trial and expired versions of CafeSuite currently available for public use and evaluation through the CafeSuite website.
+COMMERCIAL VERSION includes all the commercially licensed copies and user licenses obtained from the company or one of their vendors.
+LICENSE KEY refers to the registration file received upon purchase of COMMERCIAL VERSION.
+LICENSE PERIOD is a property of a LICENSE KEY meaning a time during which the REGISTERED USER is permitted to use COMMERCIAL VERSION of the software. This period can be unlimited (perpetual).
+UPGRADES PERIOD is a property of a LICENSE KEY meaning a time during which the REGISTERED USER is permitted to use new UPGRADES without additional restrictions imposed on the software. This period can be unlimited (perpetual).
+SEARCH PORTAL refers to www.cafegate.com website which could posibly redirect to a different website.
+
+COPYRIGHT
+CafeSuite Professional is copyrighted software;
+Copyright (c) SOFCIK Przemyslaw Miszczuk.
+You may use, copy and distribute the FREE VERSION of this program solely for demonstration purposes, only in unmodified form and without charging money for it. You may use the COMMERCIAL VERSION on one computer only. You may not copy and distribute the COMMERCIAL VERSION. You are allowed to make one (1) copy for archive reasons. Should you transfer the COMMERCIAL VERSION to another party, you must remove all copies of the COMMERCIAL VERSION from your equipment.
+
+DISTRIBUTION
+You MUST contact Przemyslaw Miszczuk (the "Author") regarding commercial distribution of the FREE VERSION.
+Any such distribution without prior written consent from Przemyslaw Miszczuk is strictly prohibited.
+Any distribution of the COMMERCIAL VERSION is strictly
+prohibited.
+
+GRANT OF LICENSE
+Przemyslaw Miszczuk (the "Author") has granted you, the user, a limited license to use CafeSuite (the "Software") This does NOT give you the license to modify, translate, reverse engineer, decompile, disassemble (except to the extent applicable laws specifically prohibit such
+restriction), or create derivative works based on the Software.
+
+DISCLAIMER
+Przemyslaw Miszczuk (the "Author") shall not be held responsible for any damages arising from the use of the Software. The Software is provided on an AS IS basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. The entire risk as to the quality and performance of the Software is borne by you. Should the Software prove defective, you and not the Author, assume the entire cost of any service and repair.
+
+Security mechanisms implemented in the Software have its limitations and you, the user, must decide whether the Software sufficiently meets your requirements.
+
+FREE VERSION
+The FREE VERSION is available for 31-day trial. The FREE VERSION is fully functional, all MODULES are active and it works with any number of client workstations, accounts or products. The FREE VERSION restrictions are that operators can login to CafeStation without providing the correct password and CafeAgent opens SEARCH PORTAL whenever session starts on client workstation.
+
+EXPIRED VERSION
+The SOFTWARE gets EXPIRED as soon as the LICENSE PERIOD ends. When SOFTWARE is EXPIRED most of the functionality is disabled and the software should NOT be used until a new LICENSE KEY is obtained. 
+
+UNSUPPORTED VERSION
+The SOFTWARE becomes UNSUPPORTED when using UPGRADE released after UPGRADES PERIOD is over. In this case the SOFTWARE is still fully functional, but CafeAgent opens SEARCH PORTAL whenever session starts on client workstation.

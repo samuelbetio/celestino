@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.01</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.0.1.38 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://www.asp-shareware.org/pad</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>SOFCIK</Company_Name>
+		<Address_1>Ulanska 15</Address_1>
+		<Address_2>Chwalecice</Address_2>
+		<City_Town>Klodawa</City_Town>
+		<State_Province>Lubuskie</State_Province>
+		<Zip_Postal_Code>66-415</Zip_Postal_Code>
+		<Country>Poland</Country>
+		<Company_WebSite_URL>http://www.sofcik.pl</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Przemyslaw</Author_First_Name>
+			<Author_Last_Name>Miszczuk</Author_Last_Name>
+			<Author_Email>przemek@sofcik.pl</Author_Email>
+			<Contact_First_Name>Przemyslaw</Contact_First_Name>
+			<Contact_Last_Name>Miszczuk</Contact_Last_Name>
+			<Contact_Email>przemek@sofcik.pl</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@cafesuite.net</Sales_Email>
+			<Support_Email>support@cafesuite.net</Support_Email>
+			<General_Email>info@cafesuite.net</General_Email>
+			<Sales_Phone>+48717220374</Sales_Phone>
+			<Support_Phone>+48717220374</Support_Phone>
+			<General_Phone>+48717220374</General_Phone>
+			<Fax_Phone>+48717227678</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>CafeSuite</Program_Name>
+		<Program_Version>3.49i</Program_Version>
+		<Program_Release_Month>02</Program_Release_Month>
+		<Program_Release_Day>19</Program_Release_Day>
+		<Program_Release_Year>2009</Program_Release_Year>
+		<Program_Cost_Dollars>140</Program_Cost_Dollars>
+		<Program_Cost_Other_Code>EUR</Program_Cost_Other_Code>
+		<Program_Cost_Other>100</Program_Cost_Other>
+		<Program_Type>Commercial</Program_Type>
+		<Program_Release_Status>Minor Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>Win95,Win98,WinME,Windows2000,WinXP,Windows2003,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+		<Program_Language>English,Arabic,Czech,Danish,German,Greek,Hungarian,Indonesian,Italian,Malay,Polish,Portuguese,Romanian,Russian,Serbian,Slovak,Spanish</Program_Language>
+		<Program_Change_Info>http://cafesuite.net/news</Program_Change_Info>
+		<Program_Specific_Category>Business</Program_Specific_Category>
+		<Program_Category_Class>Business::Other</Program_Category_Class>
+		<Program_System_Requirements>100 MB HDD, 256 MB RAM, 600 Mhz CPU</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>13625240</File_Size_Bytes>
+			<File_Size_K>13305</File_Size_K>
+			<File_Size_MB>12.99</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>Y</Has_Expire_Info>
+			<Expire_Count>21</Expire_Count>
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info>System date must be set correctly for program to function</Expire_Other_Info>
+			<Expire_Month>01</Expire_Month>
+			<Expire_Day>01</Expire_Day>
+			<Expire_Year>2010</Expire_Year>
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>internet cafe, cyber cafe, cafe, netcafe, net cafe, internet caffe, cyber caffe, caffe, netcaffe, net caffe, game club, gaming club, school, university, hotel, library, management, timer</Keywords>
+			<Char_Desc_45>Professional Internet Cafe Software</Char_Desc_45>
+			<Char_Desc_80>Internet Cafe Management Software - a complete solution for managing Cyber Cafes</Char_Desc_80>
+			<Char_Desc_250>CafeSuite is powerful Cyber Cafe management software that helps with managing customers and employees, controlling computers and printers, securing systems, accounting and billing. It simplifies and automates running your Internet Cafe business.</Char_Desc_250>
+			<Char_Desc_450>CafeSuite is powerful Cyber Cafe management software that helps with managing customers and employees, controlling computers and printers, securing systems, accounting and billing. It simplifies and automates running your Internet Cafe business. CafeSuite is robust, quick, secure and very easy to use. The system can control any number of workstations. CafeSuite is designed to be a great help for Internet cafe owners, operators and customers.</Char_Desc_450>
+			<Char_Desc_2000>CafeSuite is powerful Cyber Cafe management software that helps with managing customers and employees, controlling computers and printers, securing systems, accounting and billing. It simplifies and automates running your Internet Cafe business. Unlike many other competitive programs, CafeSuite is robust, quick, secure and very intuitive and easy to use. It doesn't matter how big your net cafe is — CafeSuite is capable of controlling any number of workstations. CafeSuite is designed to be a complete solution for Internet cafes and to make life easier for Internet cafe owners, operators and customers. 
+The package consists of two applications: CafeStation and CafeAgent. CafeStation is a main program installed at the operator desk. It is used by operators to control all connected client workstations. CafeAgent is installed on all client workstations - it secures and locks the system, offers possibility to log in and out and shows session information.
+The basic task of our software is to provide operators and customers with an accurate timing and billing information at any time. CafeSuite keeps customer accounts, so that customers can log in on their own using username and password, printed account ticket with a timecode or even a magnetic card. It is possible to set any pricing you might imagine including periodic discounts on specific days or times, traffic and group discounts, time bonuses or points system. The software keeps inventory of products and services and supports POS devices such as receipt printers, barcode scanners and vending machines. Other important features include reservations, print control, remote screen and instant recovery of disk partitions. The software generates various statistics, which give detailed information about business performance. All transactions and actions are recorded into a database and can be viewed through multiple reports. Reports can also be delivered by e-mail.
+</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://cafesuite.net/cafesuite</Application_Info_URL>
+			<Application_Order_URL>http://cafesuite.net/order</Application_Order_URL>
+			<Application_Screenshot_URL>http://cafesuite.net/img/shots/cs/CS-main-window.gif</Application_Screenshot_URL>
+			<Application_Icon_URL>http://cafesuite.net/files/cs_logo_32.png</Application_Icon_URL>
+			<Application_XML_File_URL>http://cafesuite.net/files/pad/cafesuite.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://cafesuite.net/files/CafeSuite349i.exe</Primary_Download_URL>
+			<Secondary_Download_URL>http://cafesuite.net/files/CafeSuite349i.exe</Secondary_Download_URL>
+			<Additional_Download_URL_1/>
+			<Additional_Download_URL_2/>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions/>
+		<EULA>END USER LICENSE AGREEMENT
+
+By using this version of CafeSuite you are consenting to be bound
+by agreement to the following:
+
+DEFINITIONS
+FREE VERSION includes all the free and expiring versions of
+CafeSuite currently available for public use and evaluation through the CafeSuite web site.
+COMMERCIAL VERSION includes all the commercially licensed copies
+and user licenses obtained from Przemyslaw Miszczuk (the "Author") or one of his vendors.
+
+COPYRIGHT
+CafeSuite Professional is copyrighted software;
+Copyright (c) Przemyslaw Miszczuk.
+You may use, copy and distribute the FREE VERSION of this program solely for demonstration purposes, only in unmodified form and
+without charging money for it. You may use the COMMERCIAL VERSION on one computer only. You may not copy and distribute the COMMERCIAL VERSION. You are allowed to make one (1) copy for archive reasons. Should you transfer the COMMERCIAL VERSION to another party, you must remove all copies of the COMMERCIAL VERSION from your equipment.
+
+DISTRIBUTION
+You MUST contact Przemyslaw Miszczuk (the "Author") regarding commercial distribution of the FREE VERSION.
+Any such distribution without prior written consent from Przemyslaw Miszczuk is strictly prohibited.
+Any distribution of the COMMERCIAL VERSION is strictly
+prohibited.
+
+GRANT OF LICENSE
+Przemyslaw Miszczuk (the "Author") has granted you, the user, a limited license to use CafeSuite (the "Software") This does NOT give you the license to modify, translate, reverse engineer, decompile, disassemble (except to the extent applicable laws specifically prohibit such
+restriction), or create derivative works based on the Software.
+
+DISCLAIMER
+Przemyslaw Miszczuk (the "Author") shall not be held responsible for any damages arising from the use of the Software. The Software is provided on an AS IS basis, without warranty of any kind, including without limitation the warranties of merchantability, fitness for a particular purpose and non-infringement. The entire risk as to the quality and
+performance of the Software is borne by you. Should the Software
+prove defective, you and not the Author, assume the entire cost
+of any service and repair.
+
+Security mechanisms implemented in the Software have its
+limitations and you, the user, must decide whether the Software
+sufficiently meets your requirements.
+
+</EULA>
+	</Permissions>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>Y</ASP_Member>
+		<ASP_Member_Number>06308</ASP_Member_Number>
+	</ASP>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>b0apiDvxlAfN5w/MnH10JffETFI=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>bR50BJ8wxWgTNRQA4R9li5QydWzbCDegY/HItYobAA/7ekHqQ3rCOFOF4gQt3nli
+HcbMRDdhxAmgawW9zxFcbBXmiYbIrYnthw46z4MXODDweGZyhYDbMnTtYv+0VnqM
+dMd77ZZemMV8hqvGU3Rs0/LtenAld+T1DmW83QcpLTj5yt6r+BcSS4Zzuw2AwGbJ
+qMbrxWIBuP3BxIGiSjHnI8sAGGZCk54XVgd4pEru4XWfHt/7VquAvFqh+RW4Oo9a
+zubhmM1rwr+fswlwQ7J2YoRYzaDlmfzvT1ro+6xWHauJXnq2ctbvOJUtZCfmGdOe
+6RavLZUxyrXF38vwIRmIHHBygsp0CPU99Wj/cVj9a7PIFOY/ZRbSW4xGxQveGE0f
+GLVLcMxWUhVA4K3B4kFARTQYLLruq0en0nTEEy5reBoEpEM3xNLjlpDXvvr+bfZ9
+7IBVnTRrgCYTP36McZcTMeFZTpc9jrKDIe4fEGpMT5kTq5CD0klbQFY47KLyKTh1
+a4VYX78KCLXOuC99loS/OvfwSGQYBrCgmJR9lvqfmIGS2brGMJ2F+a6iW9dC23wg
+hJ6H8CyVlZ7XBV6fHpt4FfiGPjOOozhjwiAwPFwFm292owsj5KG7zo7Jugs+v7rr
+Vv+AEjswMh3TszetQV70b9aChMGydXk0WULLIwOfZi4=</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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
+mBz0LY7rWe3OXA==</X509Certificate>
+<X509Certificate>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
+mBz0LY7rWe3OXA==</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></XML_DIZ_INFO>
