@@ -1,0 +1,7 @@
+Wifi:5+10+10+5+10   
+Log in:9+10+10+7+20+13+35+16+10+21
+photocopy:
+charge:
+print:15 
+scan:
+spoilage:
